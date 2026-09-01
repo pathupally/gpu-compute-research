@@ -28,7 +28,13 @@ jobs:
       - uses: actions/checkout@v4
       - run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended
       - run: make all
-      - run: git diff --exit-code
+      # The compiled PDF is deliberately excluded from the byte-identity gate.
+      # SOURCE_DATE_EPOCH pins timestamps, but the pdfTeX version banner and
+      # font subsetting differ between TinyTeX and Ubuntu texlive, so the
+      # binary can never match across distributions. Everything the PDF is
+      # built FROM -- paper/generated/*.tex, carrying every reported number --
+      # is still gated here, and the test jobs gate the analysis in full.
+      - run: git diff --exit-code -- . ':!output/pdf'
       - uses: actions/upload-artifact@v4
         with:
           name: manuscript
