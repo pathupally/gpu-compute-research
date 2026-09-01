@@ -29,52 +29,52 @@
     {
       "direction": "up",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.15178571428571427,
+      "event_weighted_vulnerable_share": 0.151785714286,
       "interpretation": "false_positive",
       "n_events": 28,
       "n_strikes": 85,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.058823529411764705
+      "strike_weighted_vulnerable_share": 0.0588235294118
     },
     {
       "direction": "up",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.22857142857142856,
+      "event_weighted_vulnerable_share": 0.228571428571,
       "interpretation": "false_positive",
       "n_events": 28,
       "n_strikes": 85,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.10588235294117647
+      "strike_weighted_vulnerable_share": 0.105882352941
     },
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.30892857142857144,
+      "event_weighted_vulnerable_share": 0.308928571429,
       "interpretation": "false_positive",
       "n_events": 28,
       "n_strikes": 85,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.1411764705882353
+      "strike_weighted_vulnerable_share": 0.141176470588
     },
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.5461038961038961,
+      "event_weighted_vulnerable_share": 0.546103896104,
       "interpretation": "false_positive",
       "n_events": 28,
       "n_strikes": 85,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.2823529411764706
+      "strike_weighted_vulnerable_share": 0.282352941176
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.7207792207792207,
+      "event_weighted_vulnerable_share": 0.720779220779,
       "interpretation": "false_positive",
       "n_events": 28,
       "n_strikes": 85,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.43529411764705883
+      "strike_weighted_vulnerable_share": 0.435294117647
     },
     {
       "direction": "down",
@@ -89,42 +89,42 @@
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.09191919191919191,
+      "event_weighted_vulnerable_share": 0.0919191919192,
       "interpretation": "false_negative",
       "n_events": 33,
       "n_strikes": 123,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.032520325203252036
+      "strike_weighted_vulnerable_share": 0.0325203252033
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.2194023569023569,
+      "event_weighted_vulnerable_share": 0.219402356902,
       "interpretation": "false_negative",
       "n_events": 33,
       "n_strikes": 123,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.08943089430894309
+      "strike_weighted_vulnerable_share": 0.0894308943089
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.5303872053872054,
+      "event_weighted_vulnerable_share": 0.530387205387,
       "interpretation": "false_negative",
       "n_events": 33,
       "n_strikes": 123,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.21138211382113822
+      "strike_weighted_vulnerable_share": 0.211382113821
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.6667087542087542,
+      "event_weighted_vulnerable_share": 0.666708754209,
       "interpretation": "false_negative",
       "n_events": 33,
       "n_strikes": 123,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.3252032520325203
+      "strike_weighted_vulnerable_share": 0.325203252033
     },
     {
       "direction": "up",
@@ -149,32 +149,32 @@
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.042261904761904764,
+      "event_weighted_vulnerable_share": 0.0422619047619,
       "interpretation": "false_positive",
       "n_events": 28,
       "n_strikes": 89,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.033707865168539325
+      "strike_weighted_vulnerable_share": 0.0337078651685
     },
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.12261904761904761,
+      "event_weighted_vulnerable_share": 0.122619047619,
       "interpretation": "false_positive",
       "n_events": 28,
       "n_strikes": 89,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.06741573033707865
+      "strike_weighted_vulnerable_share": 0.0674157303371
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.30631469979296067,
+      "event_weighted_vulnerable_share": 0.306314699793,
       "interpretation": "false_positive",
       "n_events": 28,
       "n_strikes": 89,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.14606741573033707
+      "strike_weighted_vulnerable_share": 0.14606741573
     },
     {
       "direction": "down",
@@ -189,147 +189,147 @@
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.030303030303030304,
+      "event_weighted_vulnerable_share": 0.030303030303,
       "interpretation": "false_negative",
       "n_events": 33,
       "n_strikes": 119,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.008403361344537815
+      "strike_weighted_vulnerable_share": 0.00840336134454
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.0920314253647587,
+      "event_weighted_vulnerable_share": 0.0920314253648,
       "interpretation": "false_negative",
       "n_events": 33,
       "n_strikes": 119,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.03361344537815126
+      "strike_weighted_vulnerable_share": 0.0336134453782
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.1829405162738496,
+      "event_weighted_vulnerable_share": 0.182940516274,
       "interpretation": "false_negative",
       "n_events": 33,
       "n_strikes": 119,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.058823529411764705
+      "strike_weighted_vulnerable_share": 0.0588235294118
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.18887485970819304,
+      "event_weighted_vulnerable_share": 0.188874859708,
       "interpretation": "false_negative",
       "n_events": 33,
       "n_strikes": 119,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.08403361344537816
+      "strike_weighted_vulnerable_share": 0.0840336134454
     },
     {
       "direction": "up",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.12058823529411765,
+      "event_weighted_vulnerable_share": 0.120588235294,
       "interpretation": "false_positive",
       "n_events": 34,
       "n_strikes": 98,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.05102040816326531
+      "strike_weighted_vulnerable_share": 0.0510204081633
     },
     {
       "direction": "up",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.151131221719457,
+      "event_weighted_vulnerable_share": 0.151131221719,
       "interpretation": "false_positive",
       "n_events": 34,
       "n_strikes": 98,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.07142857142857142
+      "strike_weighted_vulnerable_share": 0.0714285714286
     },
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.151131221719457,
+      "event_weighted_vulnerable_share": 0.151131221719,
       "interpretation": "false_positive",
       "n_events": 34,
       "n_strikes": 98,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.07142857142857142
+      "strike_weighted_vulnerable_share": 0.0714285714286
     },
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.15339366515837105,
+      "event_weighted_vulnerable_share": 0.153393665158,
       "interpretation": "false_positive",
       "n_events": 34,
       "n_strikes": 98,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.09183673469387756
+      "strike_weighted_vulnerable_share": 0.0918367346939
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.15339366515837105,
+      "event_weighted_vulnerable_share": 0.153393665158,
       "interpretation": "false_positive",
       "n_events": 34,
       "n_strikes": 98,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.09183673469387756
+      "strike_weighted_vulnerable_share": 0.0918367346939
     },
     {
       "direction": "down",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.0023148148148148147,
+      "event_weighted_vulnerable_share": 0.00231481481481,
       "interpretation": "false_negative",
       "n_events": 27,
       "n_strikes": 110,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.00909090909090909
+      "strike_weighted_vulnerable_share": 0.00909090909091
     },
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.0763888888888889,
+      "event_weighted_vulnerable_share": 0.0763888888889,
       "interpretation": "false_negative",
       "n_events": 27,
       "n_strikes": 110,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.02727272727272727
+      "strike_weighted_vulnerable_share": 0.0272727272727
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.15046296296296297,
+      "event_weighted_vulnerable_share": 0.150462962963,
       "interpretation": "false_negative",
       "n_events": 27,
       "n_strikes": 110,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.045454545454545456
+      "strike_weighted_vulnerable_share": 0.0454545454545
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.22824074074074074,
+      "event_weighted_vulnerable_share": 0.228240740741,
       "interpretation": "false_negative",
       "n_events": 27,
       "n_strikes": 110,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.07272727272727272
+      "strike_weighted_vulnerable_share": 0.0727272727273
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.22824074074074074,
+      "event_weighted_vulnerable_share": 0.228240740741,
       "interpretation": "false_negative",
       "n_events": 27,
       "n_strikes": 110,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.07272727272727272
+      "strike_weighted_vulnerable_share": 0.0727272727273
     },
     {
       "direction": "up",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.03225806451612903,
+      "event_weighted_vulnerable_share": 0.0322580645161,
       "interpretation": "false_positive",
       "n_events": 31,
       "n_strikes": 100,
@@ -339,7 +339,7 @@
     {
       "direction": "up",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.03225806451612903,
+      "event_weighted_vulnerable_share": 0.0322580645161,
       "interpretation": "false_positive",
       "n_events": 31,
       "n_strikes": 100,
@@ -349,7 +349,7 @@
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.03225806451612903,
+      "event_weighted_vulnerable_share": 0.0322580645161,
       "interpretation": "false_positive",
       "n_events": 31,
       "n_strikes": 100,
@@ -359,7 +359,7 @@
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.13225806451612904,
+      "event_weighted_vulnerable_share": 0.132258064516,
       "interpretation": "false_positive",
       "n_events": 31,
       "n_strikes": 100,
@@ -369,7 +369,7 @@
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.3609970674486804,
+      "event_weighted_vulnerable_share": 0.360997067449,
       "interpretation": "false_positive",
       "n_events": 31,
       "n_strikes": 100,
@@ -389,32 +389,32 @@
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.03333333333333333,
+      "event_weighted_vulnerable_share": 0.0333333333333,
       "interpretation": "false_negative",
       "n_events": 30,
       "n_strikes": 108,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.009259259259259259
+      "strike_weighted_vulnerable_share": 0.00925925925926
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.03333333333333333,
+      "event_weighted_vulnerable_share": 0.0333333333333,
       "interpretation": "false_negative",
       "n_events": 30,
       "n_strikes": 108,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.009259259259259259
+      "strike_weighted_vulnerable_share": 0.00925925925926
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.06666666666666667,
+      "event_weighted_vulnerable_share": 0.0666666666667,
       "interpretation": "false_negative",
       "n_events": 30,
       "n_strikes": 108,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.018518518518518517
+      "strike_weighted_vulnerable_share": 0.0185185185185
     },
     {
       "direction": "down",
@@ -424,107 +424,107 @@
       "n_events": 30,
       "n_strikes": 108,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.05555555555555555
+      "strike_weighted_vulnerable_share": 0.0555555555556
     },
     {
       "direction": "up",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.6956521739130435,
+      "event_weighted_vulnerable_share": 0.695652173913,
       "interpretation": "false_positive",
       "n_events": 23,
       "n_strikes": 63,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.25396825396825395
+      "strike_weighted_vulnerable_share": 0.253968253968
     },
     {
       "direction": "up",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.6978260869565217,
+      "event_weighted_vulnerable_share": 0.697826086957,
       "interpretation": "false_positive",
       "n_events": 23,
       "n_strikes": 63,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.2698412698412698
+      "strike_weighted_vulnerable_share": 0.269841269841
     },
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.7710144927536232,
+      "event_weighted_vulnerable_share": 0.771014492754,
       "interpretation": "false_positive",
       "n_events": 23,
       "n_strikes": 63,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.3333333333333333
+      "strike_weighted_vulnerable_share": 0.333333333333
     },
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.8239130434782609,
+      "event_weighted_vulnerable_share": 0.823913043478,
       "interpretation": "false_positive",
       "n_events": 23,
       "n_strikes": 63,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.42857142857142855
+      "strike_weighted_vulnerable_share": 0.428571428571
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.8804347826086957,
+      "event_weighted_vulnerable_share": 0.880434782609,
       "interpretation": "false_positive",
       "n_events": 23,
       "n_strikes": 63,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.5555555555555556
+      "strike_weighted_vulnerable_share": 0.555555555556
     },
     {
       "direction": "down",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.02699055330634278,
+      "event_weighted_vulnerable_share": 0.0269905533063,
       "interpretation": "false_negative",
       "n_events": 38,
       "n_strikes": 145,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.013793103448275862
+      "strike_weighted_vulnerable_share": 0.0137931034483
     },
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.056499067238231324,
+      "event_weighted_vulnerable_share": 0.0564990672382,
       "interpretation": "false_negative",
       "n_events": 38,
       "n_strikes": 145,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.034482758620689655
+      "strike_weighted_vulnerable_share": 0.0344827586207
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.11000783916805588,
+      "event_weighted_vulnerable_share": 0.110007839168,
       "interpretation": "false_negative",
       "n_events": 38,
       "n_strikes": 145,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.05517241379310345
+      "strike_weighted_vulnerable_share": 0.0551724137931
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.11088503215051203,
+      "event_weighted_vulnerable_share": 0.110885032151,
       "interpretation": "false_negative",
       "n_events": 38,
       "n_strikes": 145,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.06206896551724138
+      "strike_weighted_vulnerable_share": 0.0620689655172
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.1125297689926173,
+      "event_weighted_vulnerable_share": 0.112529768993,
       "interpretation": "false_negative",
       "n_events": 38,
       "n_strikes": 145,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.06896551724137931
+      "strike_weighted_vulnerable_share": 0.0689655172414
     }
   ],
   "sparse_error_frontier_actual_rules_only": [
@@ -536,7 +536,7 @@
       "n_events": 25,
       "n_strikes": 65,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.07692307692307693
+      "strike_weighted_vulnerable_share": 0.0769230769231
     },
     {
       "direction": "up",
@@ -546,7 +546,7 @@
       "n_events": 25,
       "n_strikes": 65,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.13846153846153847
+      "strike_weighted_vulnerable_share": 0.138461538462
     },
     {
       "direction": "up",
@@ -556,7 +556,7 @@
       "n_events": 25,
       "n_strikes": 65,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.18461538461538463
+      "strike_weighted_vulnerable_share": 0.184615384615
     },
     {
       "direction": "up",
@@ -566,7 +566,7 @@
       "n_events": 25,
       "n_strikes": 65,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.35384615384615387
+      "strike_weighted_vulnerable_share": 0.353846153846
     },
     {
       "direction": "up",
@@ -576,7 +576,7 @@
       "n_events": 25,
       "n_strikes": 65,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.5384615384615384
+      "strike_weighted_vulnerable_share": 0.538461538462
     },
     {
       "direction": "down",
@@ -591,42 +591,42 @@
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.09479166666666666,
+      "event_weighted_vulnerable_share": 0.0947916666667,
       "interpretation": "false_negative",
       "n_events": 32,
       "n_strikes": 114,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.03508771929824561
+      "strike_weighted_vulnerable_share": 0.0350877192982
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.22278645833333333,
+      "event_weighted_vulnerable_share": 0.222786458333,
       "interpretation": "false_negative",
       "n_events": 32,
       "n_strikes": 114,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.08771929824561403
+      "strike_weighted_vulnerable_share": 0.0877192982456
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.5434895833333333,
+      "event_weighted_vulnerable_share": 0.543489583333,
       "interpretation": "false_negative",
       "n_events": 32,
       "n_strikes": 114,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.21929824561403508
+      "strike_weighted_vulnerable_share": 0.219298245614
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.6805989583333333,
+      "event_weighted_vulnerable_share": 0.680598958333,
       "interpretation": "false_negative",
       "n_events": 32,
       "n_strikes": 114,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.3333333333333333
+      "strike_weighted_vulnerable_share": 0.333333333333
     },
     {
       "direction": "up",
@@ -951,32 +951,32 @@
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.08333333333333333,
+      "event_weighted_vulnerable_share": 0.0833333333333,
       "interpretation": "false_positive",
       "n_events": 3,
       "n_strikes": 13,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.07692307692307693
+      "strike_weighted_vulnerable_share": 0.0769230769231
     },
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.23333333333333334,
+      "event_weighted_vulnerable_share": 0.233333333333,
       "interpretation": "false_positive",
       "n_events": 3,
       "n_strikes": 13,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.23076923076923078
+      "strike_weighted_vulnerable_share": 0.230769230769
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.6166666666666667,
+      "event_weighted_vulnerable_share": 0.616666666667,
       "interpretation": "false_positive",
       "n_events": 3,
       "n_strikes": 13,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.6153846153846154
+      "strike_weighted_vulnerable_share": 0.615384615385
     },
     {
       "direction": "down",
@@ -1033,22 +1033,22 @@
     {
       "direction": "up",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.08333333333333333,
+      "event_weighted_vulnerable_share": 0.0833333333333,
       "interpretation": "false_positive",
       "n_events": 15,
       "n_strikes": 63,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.031746031746031744
+      "strike_weighted_vulnerable_share": 0.031746031746
     },
     {
       "direction": "up",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.09333333333333334,
+      "event_weighted_vulnerable_share": 0.0933333333333,
       "interpretation": "false_positive",
       "n_events": 15,
       "n_strikes": 63,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.06349206349206349
+      "strike_weighted_vulnerable_share": 0.0634920634921
     },
     {
       "direction": "up",
@@ -1058,27 +1058,27 @@
       "n_events": 15,
       "n_strikes": 63,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.07936507936507936
+      "strike_weighted_vulnerable_share": 0.0793650793651
     },
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.28606060606060607,
+      "event_weighted_vulnerable_share": 0.286060606061,
       "interpretation": "false_positive",
       "n_events": 15,
       "n_strikes": 63,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.20634920634920634
+      "strike_weighted_vulnerable_share": 0.206349206349
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.5387878787878788,
+      "event_weighted_vulnerable_share": 0.538787878788,
       "interpretation": "false_positive",
       "n_events": 15,
       "n_strikes": 63,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.38095238095238093
+      "strike_weighted_vulnerable_share": 0.380952380952
     },
     {
       "direction": "down",
@@ -1093,42 +1093,42 @@
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.043055555555555555,
+      "event_weighted_vulnerable_share": 0.0430555555556,
       "interpretation": "false_negative",
       "n_events": 24,
       "n_strikes": 105,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.01904761904761905
+      "strike_weighted_vulnerable_share": 0.0190476190476
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.17667824074074073,
+      "event_weighted_vulnerable_share": 0.176678240741,
       "interpretation": "false_negative",
       "n_events": 24,
       "n_strikes": 105,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.0761904761904762
+      "strike_weighted_vulnerable_share": 0.0761904761905
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.43344907407407407,
+      "event_weighted_vulnerable_share": 0.433449074074,
       "interpretation": "false_negative",
       "n_events": 24,
       "n_strikes": 105,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.17142857142857143
+      "strike_weighted_vulnerable_share": 0.171428571429
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.6208912037037037,
+      "event_weighted_vulnerable_share": 0.620891203704,
       "interpretation": "false_negative",
       "n_events": 24,
       "n_strikes": 105,
       "rule": "terminal",
-      "strike_weighted_vulnerable_share": 0.3047619047619048
+      "strike_weighted_vulnerable_share": 0.304761904762
     },
     {
       "direction": "up",
@@ -1153,32 +1153,32 @@
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.0696078431372549,
+      "event_weighted_vulnerable_share": 0.0696078431373,
       "interpretation": "false_positive",
       "n_events": 17,
       "n_strikes": 69,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.043478260869565216
+      "strike_weighted_vulnerable_share": 0.0434782608696
     },
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.08431372549019608,
+      "event_weighted_vulnerable_share": 0.0843137254902,
       "interpretation": "false_positive",
       "n_events": 17,
       "n_strikes": 69,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.057971014492753624
+      "strike_weighted_vulnerable_share": 0.0579710144928
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.15157715260017052,
+      "event_weighted_vulnerable_share": 0.1515771526,
       "interpretation": "false_positive",
       "n_events": 17,
       "n_strikes": 69,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.10144927536231885
+      "strike_weighted_vulnerable_share": 0.101449275362
     },
     {
       "direction": "down",
@@ -1203,132 +1203,132 @@
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.09259259259259259,
+      "event_weighted_vulnerable_share": 0.0925925925926,
       "interpretation": "false_negative",
       "n_events": 22,
       "n_strikes": 99,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.030303030303030304
+      "strike_weighted_vulnerable_share": 0.030303030303
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.1835016835016835,
+      "event_weighted_vulnerable_share": 0.183501683502,
       "interpretation": "false_negative",
       "n_events": 22,
       "n_strikes": 99,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.050505050505050504
+      "strike_weighted_vulnerable_share": 0.0505050505051
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.1878577441077441,
+      "event_weighted_vulnerable_share": 0.187857744108,
       "interpretation": "false_negative",
       "n_events": 22,
       "n_strikes": 99,
       "rule": "mean5",
-      "strike_weighted_vulnerable_share": 0.0707070707070707
+      "strike_weighted_vulnerable_share": 0.0707070707071
     },
     {
       "direction": "up",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.14761904761904762,
+      "event_weighted_vulnerable_share": 0.147619047619,
       "interpretation": "false_positive",
       "n_events": 21,
       "n_strikes": 76,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.05263157894736842
+      "strike_weighted_vulnerable_share": 0.0526315789474
     },
     {
       "direction": "up",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.19706959706959706,
+      "event_weighted_vulnerable_share": 0.19706959707,
       "interpretation": "false_positive",
       "n_events": 21,
       "n_strikes": 76,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.07894736842105263
+      "strike_weighted_vulnerable_share": 0.0789473684211
     },
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.19706959706959706,
+      "event_weighted_vulnerable_share": 0.19706959707,
       "interpretation": "false_positive",
       "n_events": 21,
       "n_strikes": 76,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.07894736842105263
+      "strike_weighted_vulnerable_share": 0.0789473684211
     },
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.20073260073260074,
+      "event_weighted_vulnerable_share": 0.200732600733,
       "interpretation": "false_positive",
       "n_events": 21,
       "n_strikes": 76,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.10526315789473684
+      "strike_weighted_vulnerable_share": 0.105263157895
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.20073260073260074,
+      "event_weighted_vulnerable_share": 0.200732600733,
       "interpretation": "false_positive",
       "n_events": 21,
       "n_strikes": 76,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.10526315789473684
+      "strike_weighted_vulnerable_share": 0.105263157895
     },
     {
       "direction": "down",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.003472222222222222,
+      "event_weighted_vulnerable_share": 0.00347222222222,
       "interpretation": "false_negative",
       "n_events": 18,
       "n_strikes": 92,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.010869565217391304
+      "strike_weighted_vulnerable_share": 0.0108695652174
     },
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.059027777777777776,
+      "event_weighted_vulnerable_share": 0.0590277777778,
       "interpretation": "false_negative",
       "n_events": 18,
       "n_strikes": 92,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.021739130434782608
+      "strike_weighted_vulnerable_share": 0.0217391304348
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.1701388888888889,
+      "event_weighted_vulnerable_share": 0.170138888889,
       "interpretation": "false_negative",
       "n_events": 18,
       "n_strikes": 92,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.043478260869565216
+      "strike_weighted_vulnerable_share": 0.0434782608696
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.22569444444444445,
+      "event_weighted_vulnerable_share": 0.225694444444,
       "interpretation": "false_negative",
       "n_events": 18,
       "n_strikes": 92,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.05434782608695652
+      "strike_weighted_vulnerable_share": 0.054347826087
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.22569444444444445,
+      "event_weighted_vulnerable_share": 0.225694444444,
       "interpretation": "false_negative",
       "n_events": 18,
       "n_strikes": 92,
       "rule": "median7",
-      "strike_weighted_vulnerable_share": 0.05434782608695652
+      "strike_weighted_vulnerable_share": 0.054347826087
     },
     {
       "direction": "up",
@@ -1363,22 +1363,22 @@
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.11052631578947368,
+      "event_weighted_vulnerable_share": 0.110526315789,
       "interpretation": "false_positive",
       "n_events": 19,
       "n_strikes": 79,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.0379746835443038
+      "strike_weighted_vulnerable_share": 0.0379746835443
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.16794258373205742,
+      "event_weighted_vulnerable_share": 0.167942583732,
       "interpretation": "false_positive",
       "n_events": 19,
       "n_strikes": 79,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.06329113924050633
+      "strike_weighted_vulnerable_share": 0.0632911392405
     },
     {
       "direction": "down",
@@ -1398,7 +1398,7 @@
       "n_events": 20,
       "n_strikes": 89,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.011235955056179775
+      "strike_weighted_vulnerable_share": 0.0112359550562
     },
     {
       "direction": "down",
@@ -1408,7 +1408,7 @@
       "n_events": 20,
       "n_strikes": 89,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.011235955056179775
+      "strike_weighted_vulnerable_share": 0.0112359550562
     },
     {
       "direction": "down",
@@ -1418,7 +1418,7 @@
       "n_events": 20,
       "n_strikes": 89,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.02247191011235955
+      "strike_weighted_vulnerable_share": 0.0224719101124
     },
     {
       "direction": "down",
@@ -1428,32 +1428,32 @@
       "n_events": 20,
       "n_strikes": 89,
       "rule": "month_mean",
-      "strike_weighted_vulnerable_share": 0.0449438202247191
+      "strike_weighted_vulnerable_share": 0.0449438202247
     },
     {
       "direction": "up",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.5384615384615384,
+      "event_weighted_vulnerable_share": 0.538461538462,
       "interpretation": "false_positive",
       "n_events": 13,
       "n_strikes": 44,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.1590909090909091
+      "strike_weighted_vulnerable_share": 0.159090909091
     },
     {
       "direction": "up",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.5423076923076923,
+      "event_weighted_vulnerable_share": 0.542307692308,
       "interpretation": "false_positive",
       "n_events": 13,
       "n_strikes": 44,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.18181818181818182
+      "strike_weighted_vulnerable_share": 0.181818181818
     },
     {
       "direction": "up",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.6641025641025641,
+      "event_weighted_vulnerable_share": 0.664102564103,
       "interpretation": "false_positive",
       "n_events": 13,
       "n_strikes": 44,
@@ -1463,181 +1463,181 @@
     {
       "direction": "up",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.7576923076923077,
+      "event_weighted_vulnerable_share": 0.757692307692,
       "interpretation": "false_positive",
       "n_events": 13,
       "n_strikes": 44,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.38636363636363635
+      "strike_weighted_vulnerable_share": 0.386363636364
     },
     {
       "direction": "up",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.8576923076923076,
+      "event_weighted_vulnerable_share": 0.857692307692,
       "interpretation": "false_positive",
       "n_events": 13,
       "n_strikes": 44,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.5681818181818182
+      "strike_weighted_vulnerable_share": 0.568181818182
     },
     {
       "direction": "down",
       "epsilon_pct": 0.5,
-      "event_weighted_vulnerable_share": 0.03944773175542406,
+      "event_weighted_vulnerable_share": 0.0394477317554,
       "interpretation": "false_negative",
       "n_events": 26,
       "n_strikes": 124,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.016129032258064516
+      "strike_weighted_vulnerable_share": 0.0161290322581
     },
     {
       "direction": "down",
       "epsilon_pct": 1.0,
-      "event_weighted_vulnerable_share": 0.08257555980972271,
+      "event_weighted_vulnerable_share": 0.0825755598097,
       "interpretation": "false_negative",
       "n_events": 26,
       "n_strikes": 124,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.04032258064516129
+      "strike_weighted_vulnerable_share": 0.0403225806452
     },
     {
       "direction": "down",
       "epsilon_pct": 2.0,
-      "event_weighted_vulnerable_share": 0.12231914955331245,
+      "event_weighted_vulnerable_share": 0.122319149553,
       "interpretation": "false_negative",
       "n_events": 26,
       "n_strikes": 124,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.056451612903225805
+      "strike_weighted_vulnerable_share": 0.0564516129032
     },
     {
       "direction": "down",
       "epsilon_pct": 5.0,
-      "event_weighted_vulnerable_share": 0.12360120083536373,
+      "event_weighted_vulnerable_share": 0.123601200835,
       "interpretation": "false_negative",
       "n_events": 26,
       "n_strikes": 124,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.06451612903225806
+      "strike_weighted_vulnerable_share": 0.0645161290323
     },
     {
       "direction": "down",
       "epsilon_pct": 10.0,
-      "event_weighted_vulnerable_share": 0.1260050469892099,
+      "event_weighted_vulnerable_share": 0.126005046989,
       "interpretation": "false_negative",
       "n_events": 26,
       "n_strikes": 124,
       "rule": "touch",
-      "strike_weighted_vulnerable_share": 0.07258064516129033
+      "strike_weighted_vulnerable_share": 0.0725806451613
     }
   ],
   "surface_bounds": [
     {
-      "crossing_reversal_lower_bound_normalized": 0.3898533585619678,
+      "crossing_reversal_lower_bound_normalized": 0.389853358562,
       "crossing_reversal_lower_bound_raw": 0.385,
       "gpu": "B200",
       "history": {
-        "maximum": 0.40341991341991346,
-        "median": 0.24210321324245376,
-        "minimum": 0.0721047479197259,
+        "maximum": 0.40341991342,
+        "median": 0.242103213242,
+        "minimum": 0.0721047479197,
         "n_hours": 743,
-        "q25": 0.15394648674194472,
-        "q75": 0.2706118143459916,
+        "q25": 0.153946486742,
+        "q75": 0.270611814346,
         "share_positive": 1.0
       },
       "strike": 8.0,
       "terminal_bucket_sum": 1.057,
       "terminal_event_liquidity": 11962.97272,
       "terminal_tail_is_exact": false,
-      "terminal_tail_upper_normalized": 0.08514664143803218,
+      "terminal_tail_upper_normalized": 0.085146641438,
       "terminal_tail_upper_raw": 0.09,
       "touch_event_liquidity": 4271.31908,
       "touch_price": 0.475
     },
     {
-      "crossing_reversal_lower_bound_normalized": 0.42435335856196776,
+      "crossing_reversal_lower_bound_normalized": 0.424353358562,
       "crossing_reversal_lower_bound_raw": 0.4195,
       "gpu": "B200",
       "history": {
-        "maximum": 0.5473532731376975,
-        "median": 0.4344199134199135,
-        "minimum": 0.29917213114754093,
+        "maximum": 0.547353273138,
+        "median": 0.43441991342,
+        "minimum": 0.299172131148,
         "n_hours": 743,
-        "q25": 0.41413816550361904,
-        "q75": 0.4455074743966866,
+        "q25": 0.414138165504,
+        "q75": 0.445507474397,
         "share_positive": 1.0
       },
       "strike": 7.5,
       "terminal_bucket_sum": 1.057,
       "terminal_event_liquidity": 11962.97272,
       "terminal_tail_is_exact": false,
-      "terminal_tail_upper_normalized": 0.08514664143803218,
+      "terminal_tail_upper_normalized": 0.085146641438,
       "terminal_tail_upper_raw": 0.09,
       "touch_event_liquidity": 4271.31908,
       "touch_price": 0.5095
     },
     {
-      "crossing_reversal_lower_bound_normalized": 0.45786471479050983,
+      "crossing_reversal_lower_bound_normalized": 0.457864714791,
       "crossing_reversal_lower_bound_raw": 0.4595,
       "gpu": "H100",
       "history": {
-        "maximum": 0.6161143695014664,
-        "median": 0.4524243806925011,
-        "minimum": 0.2597682119205298,
+        "maximum": 0.616114369501,
+        "median": 0.452424380693,
+        "minimum": 0.259768211921,
         "n_hours": 742,
-        "q25": 0.41883295777518603,
-        "q75": 0.483459936058917,
+        "q25": 0.418832957775,
+        "q75": 0.483459936059,
         "share_positive": 1.0
       },
       "strike": 3.5,
       "terminal_bucket_sum": 0.9905,
       "terminal_event_liquidity": 6615.23233,
       "terminal_tail_is_exact": true,
-      "terminal_tail_upper_normalized": 0.17213528520949017,
+      "terminal_tail_upper_normalized": 0.172135285209,
       "terminal_tail_upper_raw": 0.1705,
       "touch_event_liquidity": 884.91297,
       "touch_price": 0.63
     },
     {
-      "crossing_reversal_lower_bound_normalized": 0.3786435594886922,
+      "crossing_reversal_lower_bound_normalized": 0.378643559489,
       "crossing_reversal_lower_bound_raw": 0.378,
       "gpu": "H200",
       "history": {
-        "maximum": 0.4834824797843666,
-        "median": 0.36275635492655434,
-        "minimum": 0.1520499545867393,
+        "maximum": 0.483482479784,
+        "median": 0.362756354927,
+        "minimum": 0.152049954587,
         "n_hours": 742,
-        "q25": 0.3564021369050713,
-        "q75": 0.3734968322351749,
+        "q25": 0.356402136905,
+        "q75": 0.373496832235,
         "share_positive": 1.0
       },
       "strike": 7.0,
       "terminal_bucket_sum": 1.017,
       "terminal_event_liquidity": 9775.71355,
       "terminal_tail_is_exact": true,
-      "terminal_tail_upper_normalized": 0.03785644051130777,
+      "terminal_tail_upper_normalized": 0.0378564405113,
       "terminal_tail_upper_raw": 0.0385,
       "touch_event_liquidity": 766.12098,
       "touch_price": 0.4165
     },
     {
-      "crossing_reversal_lower_bound_normalized": 0.4564405113077679,
-      "crossing_reversal_lower_bound_raw": 0.45399999999999996,
+      "crossing_reversal_lower_bound_normalized": 0.456440511308,
+      "crossing_reversal_lower_bound_raw": 0.454,
       "gpu": "H200",
       "history": {
-        "maximum": 0.8121209465381245,
-        "median": 0.4609801924415813,
-        "minimum": 0.14171117357695012,
+        "maximum": 0.812120946538,
+        "median": 0.460980192442,
+        "minimum": 0.141711173577,
         "n_hours": 742,
-        "q25": 0.3388123711585298,
-        "q75": 0.5685191007269639,
+        "q25": 0.338812371159,
+        "q75": 0.568519100727,
         "share_positive": 1.0
       },
       "strike": 6.0,
       "terminal_bucket_sum": 1.017,
       "terminal_event_liquidity": 9775.71355,
       "terminal_tail_is_exact": true,
-      "terminal_tail_upper_normalized": 0.14355948869223206,
+      "terminal_tail_upper_normalized": 0.143559488692,
       "terminal_tail_upper_raw": 0.146,
       "touch_event_liquidity": 766.12098,
       "touch_price": 0.6

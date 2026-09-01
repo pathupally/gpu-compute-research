@@ -345,6 +345,32 @@ def matched_surface_bounds(poly: dict) -> tuple[list[dict], list[dict]]:
     return bounds, histories
 
 
+def canonical_float(value):
+    """Collapse platform-dependent float noise to a stable decimal form.
+
+    Summation order and libm differ across CPU architectures and Python
+    versions, so the same computation yields last-ULP variation (1.057 vs
+    1.0570000000000002). Twelve significant figures is far beyond any
+    precision this paper reports and far below that noise, so rounding here
+    makes every generated artifact byte-identical across platforms without
+    touching a single reported result.
+    """
+    if isinstance(value, bool) or not isinstance(value, float):
+        return value
+    if not math.isfinite(value):
+        return value
+    return float(f"{value:.12g}")
+
+
+def canonicalize(obj):
+    """Recursively apply canonical_float to every float in a structure."""
+    if isinstance(obj, dict):
+        return {k: canonicalize(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [canonicalize(v) for v in obj]
+    return canonical_float(obj)
+
+
 def write_csv(path: Path, rows: list[dict], fields: list[str] | None = None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
@@ -359,7 +385,7 @@ def write_csv(path: Path, rows: list[dict], fields: list[str] | None = None) -> 
             lineterminator="\n",
         )
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(canonicalize(rows))
 
 
 def svg_escape(text: str) -> str:
@@ -732,7 +758,8 @@ def main() -> None:
         ],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+    args.output.write_text(
+        json.dumps(canonicalize(payload), indent=2, sort_keys=True) + "\n")
     write_csv(OUTPUT / "surface_bounds.csv", bounds,
               ["gpu", "strike", "touch_price", "terminal_tail_upper_raw", "terminal_bucket_sum",
                "terminal_tail_upper_normalized", "crossing_reversal_lower_bound_raw",
