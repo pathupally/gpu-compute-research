@@ -14,8 +14,8 @@ jobs:
         python-version: ["3.11", "3.12"]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python-version }}
       - run: make verify
@@ -25,7 +25,7 @@ jobs:
   paper:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended
       - run: make all
       # The compiled PDF is deliberately excluded from the byte-identity gate.
@@ -35,7 +35,7 @@ jobs:
       # built FROM -- paper/generated/*.tex, carrying every reported number --
       # is still gated here, and the test jobs gate the analysis in full.
       - run: git diff --exit-code -- . ':!output/pdf'
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: manuscript
           path: output/pdf/the-benchmark-is-part-of-the-option.pdf
