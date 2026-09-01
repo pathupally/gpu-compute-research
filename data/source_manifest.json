@@ -1,133 +1,298 @@
 {
-  "entries": [
-    {
-      "frozen_as": "data/index_paths.json",
-      "sha256": "f579705720c41a68775cead73c3b2b403f7397da5ed40fb0b124794aee93d0d3",
-      "source": "data/snapshots/ornn/a100-sxm4/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/index_paths.json",
-      "sha256": "a6392f63f68cc0842f72c9b8f57a6a062aa321049b1d65a1438f57c08bba8de7",
-      "source": "data/snapshots/ornn/b200/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/index_paths.json",
-      "sha256": "7f4f3f1cc5fe5692e6dbb32d43d5335071a3cd8e44b676bb495d22328253f10c",
-      "source": "data/snapshots/ornn/h100-sxm/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/index_paths.json",
-      "sha256": "33c521030206f5cca01edc6cbd4f9cb1eeb32017e4c9337f9f61ff6e80c5e0ff",
-      "source": "data/snapshots/ornn/h200/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/index_paths.json",
-      "sha256": "f0ae50a0f5bb392b2325f6c36e7418fd3ace0c486cb468ed274afc038f91b860",
-      "source": "data/snapshots/ornn/rtx-5090/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "dbb90b2214803012a19b98c69cb93eab691895ade1becd39c3c56c013e8e8c9f",
-      "source": "data/snapshots/kalshi/KXA100W/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "e4c2aeebfc28833e22cfc9b853bbb224b4d6a35e1ea3bfe66cc55f7b78e0eda3",
-      "source": "data/snapshots/kalshi/KXB200W/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "97d308958eeaac1f88e2677170980ed1b2636758b128a4a538be717e979aeda4",
-      "source": "data/snapshots/kalshi/KXH100W/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "43c69041b143d7109eebf3be9f4ce1e5812eab7ee9b1e381c64a28d68e867c52",
-      "source": "data/snapshots/kalshi/KXH200W/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "40b3e2c5aa58af984e9aab069cc3be2fbed749247704ffad37ca31df5f1dfb30",
-      "source": "data/snapshots/kalshi/KXRTX5090W/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "c55e4ed7f374ae04c546c65dc4787619b4257234e937878e3f7d20aa8d00e68e",
-      "source": "data/snapshots/kalshi/KXB200MON/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "78aa756d54b2be3d6b2f26af6b69ae96a556315ea5614f9408c31f9b01173c91",
-      "source": "data/snapshots/kalshi/KXH100MON/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "70ea408ce7f6d2d820ef528ca230c73620bdc89abb67216259871866f9f8d939",
-      "source": "data/snapshots/kalshi/KXH200MON/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "7f8881d2287ffe6de4aa1613e9baac8f875338f6bba6abba1c6a4291496ebacb",
-      "source": "data/snapshots/kalshi/KXRTX5090MON/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "48d61f33ee87e73257215fd10fce2a09896dc3b751b38d3cf1b3afc2ba075a72",
-      "source": "data/snapshots/kalshi/KXA100MAX/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "8717a12d1c003965605696b6818c1a9ca6169dab7a1c1b14dbb4e980e49e3edc",
-      "source": "data/snapshots/kalshi/KXB200MAX/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "194deba5b46699af17e38cfbe0898858a13d061a2c8e13e15913e9ad01c1eb79",
-      "source": "data/snapshots/kalshi/KXH100MAX/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "36e31c1ea6f707fb0316a72bec2a48a1059ebffb4d301c77d23ec58a288a2538",
-      "source": "data/snapshots/kalshi/KXH200MAX/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "e8452d43e98dc6de945cd50899c67d2aa431eaabef683ad96fa671cbc598430e",
-      "source": "data/snapshots/kalshi/KXRTX5090MAX/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "1c32610d840c9418af3068601315834d92182227e66df660ccac1eadfe68a2ce",
-      "source": "data/snapshots/kalshi/KXB200Q/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "cfa5822ee798a20d798e68fb5ff8af728197c06c27bb24e3cda65f21103b5a1b",
-      "source": "data/snapshots/kalshi/KXH100Q/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/settlement_sample.json",
-      "sha256": "52d475debbf9282c22d3a6b81a3d01000f5e682408ade630112951336025c8ee",
-      "source": "data/snapshots/kalshi/KXH200Q/2026-08-29.json"
-    },
-    {
-      "frozen_as": "data/market_surface_sample.json",
-      "sha256": "793bd4dfa4b60fb06c189962017f47bb47f270559efcecb246ca819c2d04436a",
-      "source": "data/snapshots/polymarket/2026-08-29.json"
-    },
+  "artifacts": [
     {
       "artifact": "data/index_paths.json",
       "sha256": "d241c63bd8989ff038854c7c52bd04c9ff644d5a56889e3f1cc383a1a1e67890"
     },
     {
       "artifact": "data/settlement_sample.json",
-      "sha256": "690db94083c410a3de45e7412488fe0454b0e713943a5a86d82ccbb89e954202"
+      "sha256": "e84d5d8e23abaee07d2308dbb2b793d927acd05c10145093b8bfe690dd253000"
     },
     {
       "artifact": "data/market_surface_sample.json",
-      "sha256": "c53be208d010601c05ee72d471d5d59fffe416097b5cf21644351741114743ba"
+      "sha256": "573c2ee0aa37dcb1b6e7f20037a2eafc93b1bb0854b6d3f29f9a9efe9ae3a8d1"
     }
   ],
+  "discovery_sample_cutoff": "2026-08-30",
   "frozen_at": "2026-08-30",
-  "policy": "Analysis reads frozen artifacts only; live sources are never fetched by make all."
+  "policy": "Analysis reads frozen artifacts only; live sources are never fetched by make all.",
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "frozen_as": "data/index_paths.json",
+      "publisher": "Ornn",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "f579705720c41a68775cead73c3b2b403f7397da5ed40fb0b124794aee93d0d3",
+      "source_id": "ornn-a100-sxm4-2026-08-29",
+      "source_record_locator": "92 daily index observations ending 2026-08-29",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.ornnai.com/api/gpu/A100%20SXM4/index-history"
+    },
+    {
+      "frozen_as": "data/index_paths.json",
+      "publisher": "Ornn",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "a6392f63f68cc0842f72c9b8f57a6a062aa321049b1d65a1438f57c08bba8de7",
+      "source_id": "ornn-b200-2026-08-29",
+      "source_record_locator": "92 daily index observations ending 2026-08-29",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.ornnai.com/api/gpu/B200/index-history"
+    },
+    {
+      "frozen_as": "data/index_paths.json",
+      "publisher": "Ornn",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "7f4f3f1cc5fe5692e6dbb32d43d5335071a3cd8e44b676bb495d22328253f10c",
+      "source_id": "ornn-h100-sxm-2026-08-29",
+      "source_record_locator": "92 daily index observations ending 2026-08-29",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.ornnai.com/api/gpu/H100%20SXM/index-history"
+    },
+    {
+      "frozen_as": "data/index_paths.json",
+      "publisher": "Ornn",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "33c521030206f5cca01edc6cbd4f9cb1eeb32017e4c9337f9f61ff6e80c5e0ff",
+      "source_id": "ornn-h200-2026-08-29",
+      "source_record_locator": "92 daily index observations ending 2026-08-29",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.ornnai.com/api/gpu/H200/index-history"
+    },
+    {
+      "frozen_as": "data/index_paths.json",
+      "publisher": "Ornn",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "f0ae50a0f5bb392b2325f6c36e7418fd3ace0c486cb468ed274afc038f91b860",
+      "source_id": "ornn-rtx-5090-2026-08-29",
+      "source_record_locator": "92 daily index observations ending 2026-08-29",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.ornnai.com/api/gpu/RTX%205090/index-history"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "48d61f33ee87e73257215fd10fce2a09896dc3b751b38d3cf1b3afc2ba075a72",
+      "source_id": "kalshi-KXA100MAX-2026-08-29",
+      "source_record_locator": "series_ticker=KXA100MAX",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXA100MAX"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "dbb90b2214803012a19b98c69cb93eab691895ade1becd39c3c56c013e8e8c9f",
+      "source_id": "kalshi-KXA100W-2026-08-29",
+      "source_record_locator": "series_ticker=KXA100W",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXA100W"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "8717a12d1c003965605696b6818c1a9ca6169dab7a1c1b14dbb4e980e49e3edc",
+      "source_id": "kalshi-KXB200MAX-2026-08-29",
+      "source_record_locator": "series_ticker=KXB200MAX",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXB200MAX"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "c55e4ed7f374ae04c546c65dc4787619b4257234e937878e3f7d20aa8d00e68e",
+      "source_id": "kalshi-KXB200MON-2026-08-29",
+      "source_record_locator": "series_ticker=KXB200MON",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXB200MON"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "1c32610d840c9418af3068601315834d92182227e66df660ccac1eadfe68a2ce",
+      "source_id": "kalshi-KXB200Q-2026-08-29",
+      "source_record_locator": "series_ticker=KXB200Q",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXB200Q"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "e4c2aeebfc28833e22cfc9b853bbb224b4d6a35e1ea3bfe66cc55f7b78e0eda3",
+      "source_id": "kalshi-KXB200W-2026-08-29",
+      "source_record_locator": "series_ticker=KXB200W",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXB200W"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "194deba5b46699af17e38cfbe0898858a13d061a2c8e13e15913e9ad01c1eb79",
+      "source_id": "kalshi-KXH100MAX-2026-08-29",
+      "source_record_locator": "series_ticker=KXH100MAX",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXH100MAX"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "78aa756d54b2be3d6b2f26af6b69ae96a556315ea5614f9408c31f9b01173c91",
+      "source_id": "kalshi-KXH100MON-2026-08-29",
+      "source_record_locator": "series_ticker=KXH100MON",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXH100MON"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "cfa5822ee798a20d798e68fb5ff8af728197c06c27bb24e3cda65f21103b5a1b",
+      "source_id": "kalshi-KXH100Q-2026-08-29",
+      "source_record_locator": "series_ticker=KXH100Q",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXH100Q"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "97d308958eeaac1f88e2677170980ed1b2636758b128a4a538be717e979aeda4",
+      "source_id": "kalshi-KXH100W-2026-08-29",
+      "source_record_locator": "series_ticker=KXH100W",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXH100W"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "36e31c1ea6f707fb0316a72bec2a48a1059ebffb4d301c77d23ec58a288a2538",
+      "source_id": "kalshi-KXH200MAX-2026-08-29",
+      "source_record_locator": "series_ticker=KXH200MAX",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXH200MAX"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "70ea408ce7f6d2d820ef528ca230c73620bdc89abb67216259871866f9f8d939",
+      "source_id": "kalshi-KXH200MON-2026-08-29",
+      "source_record_locator": "series_ticker=KXH200MON",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXH200MON"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "52d475debbf9282c22d3a6b81a3d01000f5e682408ade630112951336025c8ee",
+      "source_id": "kalshi-KXH200Q-2026-08-29",
+      "source_record_locator": "series_ticker=KXH200Q",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXH200Q"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "43c69041b143d7109eebf3be9f4ce1e5812eab7ee9b1e381c64a28d68e867c52",
+      "source_id": "kalshi-KXH200W-2026-08-29",
+      "source_record_locator": "series_ticker=KXH200W",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXH200W"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "e8452d43e98dc6de945cd50899c67d2aa431eaabef683ad96fa671cbc598430e",
+      "source_id": "kalshi-KXRTX5090MAX-2026-08-29",
+      "source_record_locator": "series_ticker=KXRTX5090MAX",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXRTX5090MAX"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "7f8881d2287ffe6de4aa1613e9baac8f875338f6bba6abba1c6a4291496ebacb",
+      "source_id": "kalshi-KXRTX5090MON-2026-08-29",
+      "source_record_locator": "series_ticker=KXRTX5090MON",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXRTX5090MON"
+    },
+    {
+      "frozen_as": "data/settlement_sample.json",
+      "publisher": "Kalshi",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "40b3e2c5aa58af984e9aab069cc3be2fbed749247704ffad37ca31df5f1dfb30",
+      "source_id": "kalshi-KXRTX5090W-2026-08-29",
+      "source_record_locator": "series_ticker=KXRTX5090W",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXRTX5090W"
+    },
+    {
+      "frozen_as": "data/market_surface_sample.json",
+      "publisher": "Polymarket",
+      "raw_artifact_redistributed": false,
+      "redistribution_status": "minimal_normalized_research_records_only",
+      "retrieved_on": "2026-08-29",
+      "source_fingerprint": "793bd4dfa4b60fb06c189962017f47bb47f270559efcecb246ca819c2d04436a",
+      "source_id": "polymarket-compute-surfaces-2026-08-29",
+      "source_record_locator": "six B200/H100/H200 terminal and touch events plus hourly YES histories",
+      "upstream_rights": "retained_by_publisher",
+      "upstream_uri": "https://gamma-api.polymarket.com/events"
+    }
+  ]
 }

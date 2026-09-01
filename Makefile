@@ -1,6 +1,9 @@
 PYTHON ?= python3
 PDFLATEX ?= pdflatex
 PAPER_NAME := the-benchmark-is-part-of-the-option
+export SOURCE_DATE_EPOCH := 1788134400
+export FORCE_SOURCE_DATE := 1
+export TZ := UTC
 
 .PHONY: all verify analysis figures paper refreeze
 
@@ -22,4 +25,5 @@ paper: figures
 	$(PDFLATEX) -interaction=nonstopmode -halt-on-error -jobname=$(PAPER_NAME) -output-directory=output/pdf paper/manuscript.tex
 
 refreeze:
-	$(PYTHON) src/freeze_inputs.py
+	@test -n "$(SOURCE_ROOT)" || (echo "SOURCE_ROOT is required" >&2; exit 2)
+	$(PYTHON) src/freeze_inputs.py --source-root "$(SOURCE_ROOT)"

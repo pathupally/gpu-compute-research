@@ -4,11 +4,12 @@
     "price_bound": "one-touch YES price minus an upper bound on the normalized terminal-tail price",
     "robustness_radius": "minimum absolute one-print log perturbation that changes a binary payoff"
   },
-  "generated_by": "novelty/src/study.py",
+  "generated_by": "src/study.py",
   "limitations": [
     "Archived Polymarket histories are prices, not executable bid/ask or depth histories.",
     "A price wedge is a state-price diagnostic, not an objective crossing probability.",
     "Sparse-error radii are deterministic sensitivity measures; they do not estimate actual benchmark error.",
+    "Actual-rule subsets contain different events, strikes, moneyness distributions, and denominators; they are descriptive rather than paired rule comparisons.",
     "The 208 strikes represent 56 events and are not independent observations."
   ],
   "settlement_audit": {

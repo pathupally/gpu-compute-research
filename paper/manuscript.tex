@@ -4,6 +4,12 @@
 \usepackage{amsmath,amssymb,booktabs,graphicx,array,url,xcolor}
 \usepackage[round,authoryear]{natbib}
 \usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={The Benchmark Is Part of the Option},
+  pdfauthor={Adrian Mathew},
+  pdfsubject={Settlement functions and benchmark robustness in compute derivatives},
+  pdfkeywords={compute derivatives, benchmark design, first-passage option, settlement audit}
+}
 \setlength{\parindent}{1em}
 \setlength{\parskip}{0pt}
 \newcommand{\I}{\mathbb{I}}
@@ -14,7 +20,9 @@
 
 \title{\textbf{The Benchmark Is Part of the Option:}\\
 First-Passage Prices and Sparse-Print Robustness in Compute Derivatives}
-\author{Anonymous submission}
+\author{Adrian Mathew\\
+Purdue University\\
+\texttt{mathe147@purdue.edu}}
 \date{August 30, 2026}
 
 \begin{document}
@@ -31,14 +39,16 @@ we exploit matched December 31 terminal buckets and one-touch thresholds for
 B200, H100, and H200 on the same venue. Pathwise payoff dominance implies that
 the one-touch price minus an upper bound on the terminal-tail price lower-bounds
 the state price of crossing and subsequently ending below the barrier. Across
-five unresolved thresholds, the normalized lower bound is \MinBound{} to 45.8\%
+five unresolved thresholds, the normalized lower bound is \MinBound{} to \MaxBound{}
 at the frozen date (median \MedianBound{}) and remains positive in every one of
-at least \MinHours{} aligned hourly observations per surface. Third, we define a
+at least \MinHours{} aligned hourly observations per surface. As a sensitivity
+analysis, we define a
 directional sparse-print robustness radius: the smallest perturbation to one
 published index observation that changes a binary payoff. In an event-weighted
 counterfactual design, a 5\% upward change to one print can change \TouchFiveFP{}
 of no-strike decisions under one-touch settlement, versus \MeanFiveFP{} under a
-monthly average; downward vulnerability is 11.1\% versus 6.7\%. These are
+monthly average; downward vulnerability is \TouchFiveFNAll{} versus
+\MeanFiveFNAll{}. These are
 deterministic susceptibility measures, not estimates of actual benchmark error
 or manipulation. The results motivate publication-vintage controls, averaging,
 and explicit path-functional disclosure as compute futures move from announced
@@ -66,13 +76,29 @@ otherwise disputed, the settlement rule also determines how that uncertainty
 enters the payoff. For a one-touch claim, a high print can be absorbing: once
 the contract resolves, later values cannot reverse the payout.
 
-This issue is timely. CME announced H100 and B200 rental-index futures for an
-October 2026 launch, subject to regulatory review \citep{cme2026}. The CFTC's
-request for comment asks directly about cash-market fragmentation, benchmark
-auditability, fungibility, and manipulation risk \citep{cftc2026}. Meanwhile,
-event venues already list terminal and ``hit by date'' contracts on public GPU
-rental indices. They provide the first observable price surface on different
-functionals of the same compute benchmark.
+This issue is timely. Three compute-futures products have been announced within
+the span of six weeks. CME and Silicon Data announced a partnership on May 12,
+2026 and a H100 and B200 cash-settled rental-index futures listing for October
+5, 2026, subject to CFTC review \citep{cme2026}. ICE and Ornn announced a
+separate suite of cash-settled GPU compute futures on May 19, 2026, tied to the
+Ornn Compute Price Index \citep{ice2026}. Architect announced compute futures
+on a new US-based exchange on May 28, 2026, also tied to Ornn's indices
+\citep{architect2026}. The CFTC's request for comment asks directly about
+cash-market fragmentation, benchmark auditability, fungibility, and
+manipulation risk \citep{cftc2026}. Meanwhile, event venues already list
+terminal and ``hit by date'' contracts on public GPU rental indices, including
+the same Ornn series that ICE has licensed. They provide the first observable
+price surface on different functionals of a soon-to-be-cleared compute
+benchmark.
+
+We study the event-venue settlement rules. Ornn's own listed future on Ornn
+Exchange uses Asian-style arithmetic-average of daily index values, with
+30 daily payouts per month-long contract \citep{ornnfutures}; we treat this
+as a separate functional in the sparse-print analysis but do not have access
+to Ornn Exchange trade prints, so the Ornn-Exchange listed rule is not
+the primary object of this paper. We also note that the Ornn risk-disclosure
+identifies an affiliated de minimis swap dealer, OrnnX LLC, that prices off
+the same OCPI series, a structural conflict-of-interest we do not test.
 
 We make three contributions. First, we build a settlement audit that reads the
 contract date from the specification rather than the UTC close timestamp, uses
@@ -115,12 +141,31 @@ with a prospective holdout.
 \citet{bandisu2026} establish the key economic analogy: rented compute is a
 non-storable service, closer to electricity or freight capacity than to stored
 oil. They use term rentals to construct synthetic forward prices and study
-early risk-premium implications. Our object differs. We study event claims that
-already trade on terminal and running-maximum functionals of an Ornn index, not
-the term-rental curve or a synthetic futures return. Work on cloud spot pricing
-primarily studies allocation mechanisms, interruption, and provider pricing
-\citep{li2017}; hedonic cloud-index research instead addresses quality change
+early risk-premium implications, using data from both Silicon Data and Ornn.
+Our object differs. We study event claims that already trade on terminal and
+running-maximum functionals of an Ornn index, not the term-rental curve or a
+synthetic futures return. Work on cloud spot pricing primarily studies
+allocation mechanisms, interruption, and provider pricing \citep{li2017};
+hedonic cloud-index research instead addresses quality change
 \citep{byrne2018}. Neither literature identifies the path payoff priced here.
+The token-side analog to a rental index is the LLM API price index studied by
+\citet{demirer2025}, who document six facts on the inference market using
+OpenRouter and Microsoft Azure; the rental-and-token pair is the natural
+joint object of a future study and is not in the present paper.
+
+\paragraph{Cross-vendor and index-construction methods.}
+The closest published method for the cross-vendor basis problem is
+\citet{he2025}, who proposes two-way fixed-effects and common-weight operators
+that reconcile cost-preservation with ranking robustness when a single
+portfolio procures the same SKU across heterogeneous campuses. The problem
+is different in our setting: vendor heterogeneity across market is not the
+same as location heterogeneity within a portfolio. The blending operators
+are reusable as future work but do not subsume the present analysis.
+\citet{bergemanndeb2025} provide a non-empirical mechanism-design precedent
+for the design intuition that posted cloud prices do not continuously
+market-clear, and \citet{gpulottery2025} document that an 8\% micro-benchmark
+variation on identical GPUs can produce a 1.61$\times$ token-per-dollar
+difference, an empirical basis for the cross-vendor basis.
 
 \paragraph{Benchmarks and cash settlement.}
 Index construction for cash settlement is a longstanding problem
@@ -241,12 +286,12 @@ published crossing is not disqualified by a subsequent revision
 liquidity, and snapshot outcome prices. Five unresolved high barriers have a
 usable matched terminal tail.
 
-The frozen source manifest stores SHA-256 hashes of parent snapshots and compact
-study inputs. Analysis verifies those hashes before calculation. No target
-fetches live data. The code, tests, machine-readable outputs, and manuscript are
-generated under \code{novelty/}. This separation matters because the parent
-repository contained derived artifacts from multiple retrieval times; none is
-used in the paper.
+The frozen source manifest stores provenance fingerprints for unavailable
+source captures and SHA-256 hashes for the compact study inputs. Analysis
+verifies the included-artifact hashes before calculation; source fingerprints
+are provenance locators, not independently verifiable checks on files that are
+not redistributed. No reproduction target fetches live data. The code, tests,
+machine-readable outputs, and manuscript are included in this package.
 
 \subsection{Settlement reproduction gate}
 
@@ -256,7 +301,7 @@ begin at market opening or the first archived index date, whichever is later.
 The audit program computes the named functional and compares both the binary result
 and numeric settlement value.
 
-All \NContracts{} binary outcomes reproduce. All 187 contracts with numeric
+All \NContracts{} binary outcomes reproduce. All \NNumericContracts{} contracts with numeric
 settlement values match the computed functional within half a cent. This gate
 does not prove the upstream index was correct at publication time; it proves
 that the archived contract record and archived index path are mutually
@@ -270,27 +315,7 @@ upper bound for both $\$7.50$ and $\$8.00$ terminal tails. The other three
 thresholds coincide with terminal bucket boundaries and their tails are exact
 after normalization.
 
-\begin{table*}[t]
-\centering
-\caption{Matched one-touch and terminal-tail prices on August 29, 2026. Prices
-are dollars per $\$1$ payoff. ``Bound'' is the normalized lower bound from
-Equation~\eqref{eq:lower}. History columns summarize the same bound over aligned
-hourly observations. B200 terminal tails are conservative upper bounds because
-the barrier lies inside the $\$7+$ bucket.}
-\label{tab:bounds}
-\small
-\begin{tabular}{lrrrrrrrr}
-\toprule
-GPU & $K$ & Touch & Terminal tail & Bound & Hours & Hist. min & Hist. median & Positive \\
-\midrule
-B200 & 8.00 & .475 & .085 & .390 & 743 & .072 & .242 & 100\% \\
-B200 & 7.50 & .510 & .085 & .424 & 743 & .299 & .434 & 100\% \\
-H100 & 3.50 & .630 & .172 & .458 & 742 & .260 & .452 & 100\% \\
-H200 & 7.00 & .417 & .038 & .379 & 742 & .152 & .363 & 100\% \\
-H200 & 6.00 & .600 & .144 & .456 & 742 & .142 & .461 & 100\% \\
-\bottomrule
-\end{tabular}
-\end{table*}
+\input{paper/generated/surface_bounds_table.tex}
 
 \begin{figure*}[t]
 \centering
@@ -303,10 +328,25 @@ return.}
 \end{figure*}
 
 The cross-payoff wedge is not a small correction. Snapshot lower bounds range
-from \MinBound{} to 45.8\%, with mean \MeanBound{}. The sign is not a last-hour
+from \MinBound{} to \MaxBound{}, with mean \MeanBound{}. The sign is not a last-hour
 artifact: each of the five bounds is positive in every one of
-742 or 743 common hourly observations. The smallest within-series historical
-minimum is 7.2\%; series medians range from 24.2\% to 46.1\%.
+\MinHours{} or \MaxHours{} common hourly observations. The smallest within-series historical
+minimum is \MinHistoricalBound{}; series medians range from
+\MinHistoricalMedian{} to \MaxHistoricalMedian{}.
+
+A partial mechanical driver exists. As the underlying approaches a high
+barrier with elapsed time, $\pi(H_M)$ rises and the terminal-tail upper
+bound $U_T(K)$ falls even with no measurement noise. The persistence
+result is therefore not pure evidence of market belief in
+cross-and-reversal paths. To bound the mechanical component, we
+recompute the wedge on the subset of hourly observations where the
+underlying is comfortably below the touch threshold, defined as
+$Y_t < K - 0.10$ (i.e.\ $Y_t$ is more than 10\% below the barrier). On this
+subset, the wedge remains positive in the majority of hours across all
+five surfaces, with the same sign pattern as the full sample. The
+mechanical component is real but does not account for the result. A
+cleaner bin-by-$Y_t - K$ decomposition is pre-declared as a prospective
+test.
 
 Economically, the result says that the market places material value on paths
 that cross a high rental-price threshold and then finish below it. That state
@@ -326,52 +366,49 @@ $\rho\le\log(1+\epsilon)$. We average vulnerable-strike shares within each event
 and then average events. This estimand gives a one-strike event and a 20-strike
 ladder the same total weight.
 
-\begin{table}[t]
-\centering
-\caption{Event-weighted share of listed strike decisions vulnerable to one 5\%
-print perturbation under counterfactual settlement rules. Upward perturbations
-are evaluated for base-No outcomes; downward perturbations for base-Yes.}
-\label{tab:fragility}
-\scriptsize
-\setlength{\tabcolsep}{3pt}
-\begin{tabular}{lrr}
-\toprule
-Rule & Up / FP & Down / FN \\
-\midrule
-Terminal & 54.6\% & 53.0\% \\
-Mean, 5 days & 12.3\% & 18.3\% \\
-Median, 7 days & 15.3\% & 22.8\% \\
-Calendar-month mean & 13.2\% & 6.7\% \\
-One-touch maximum & 82.4\% & 11.1\% \\
-\bottomrule
-\end{tabular}
-\end{table}
+\input{paper/generated/fragility_table.tex}
 
 \begin{figure}[t]
 \centering
 \input{paper/generated/fragility_frontier_picture.tex}
-\caption{The same 5\% sparse-print experiment. A one-touch maximum is especially
-susceptible to upward changes near a listed barrier but comparatively robust to
-one downward change after one or more crossings.}
+\caption{The all-rules 5\% sparse-print experiment. A one-touch maximum is
+especially susceptible to upward changes near a listed barrier but
+comparatively robust to one downward change after one or more crossings.
+The stated-rule columns are descriptive subsets with different events, strikes,
+and denominators; they are not paired comparisons across functionals.}
 \label{fig:fragility}
 \end{figure}
 
-The asymmetry is sharp. A one-touch rule exposes every monitored print as a
-potential high trigger, so \TouchFiveFP{} of base-No decisions are vulnerable to
-some single 5\% upward change. Yet only 11.1\% of base-Yes decisions can be
-reversed by one downward change. A monthly average reduces those shares to
-\MeanFiveFP{} and 6.7\%. The counterfactual is not a causal estimate of a venue
-redesign: changing the functional also changes rule-specific moneyness. It is a
-deterministic answer to a narrower question: on these paths and listed strikes,
-which payouts can one changed print alter?
+The asymmetry is sharp. Under the all-rules panel, a one-touch rule exposes
+every monitored print as a potential high trigger, so \TouchFiveFPAll{} of
+base-No decisions are vulnerable to some single 5\% upward change. In
+the stated-rule subset, the touch
+false-positive rate at 5\% perturbation is \TouchFiveFPActual{} on
+3 touch events and 13 strikes, and the terminal false-positive rate is
+\TerminalFiveFPActual{} on 25 events and 65 strikes. The all-rules comparison
+is affected by rule-specific outcomes and strike selection: the terminal
+rule puts all weight on one print, the mean rule attenuates by $1/N$, the
+maximum rule puts positive weight on every print, and the strike set is
+different for each rule. The stated-rule columns also compare different event
+families, strikes, moneyness distributions, and denominators. Neither panel is
+a causal venue-redesign estimate; both are deterministic sensitivity summaries.
+
+A monthly average reduces both shares: \MeanFiveFPAll{} upward and \MeanFiveFNAll{}
+downward under the all-rules panel. The counterfactual is not a causal
+estimate of a venue redesign: changing the functional also changes
+rule-specific outcomes and moneyness. The deterministic answer to a narrower
+question is: on these
+paths and listed strikes, which payouts can one changed print alter? The
+reported panels bound that question under two transparent compositions.
 
 Two robustness checks limit the role of unusual products. Excluding A100 and
 RTX 5090 leaves only B200, H100, and H200. The 5\% upward event-weighted share is
-still \CoreTouchFiveFP{} for touch versus \CoreMeanFiveFP{} for monthly mean.
-Restricting each event to its actual settlement rule preserves the exact audit
-but leaves only three touch events, so we do not attach a sampling p-value to
-that comparison. Full curves from 0.5\% through 10\%, actual-rule-only results,
-all directional radii, and strike-weighted secondary summaries are included in
+still \CoreTouchFiveFP{} for touch versus \CoreMeanFiveFP{} for monthly mean
+under the all-rules panel. The stated-rule subset is reported separately in the
+right columns of Table~\ref{tab:fragility} and is not promoted as a paired rule
+comparison.
+Full curves from 0.5\% through 10\%, actual-rule-only results, all
+directional radii, and strike-weighted secondary summaries are included in
 the machine-readable outputs.
 
 \section{Implications for contract and benchmark design}
@@ -411,21 +448,45 @@ observations are highly dependent and are presented as a persistence audit, not
 742 independent replications. The archive lacks historical order books, so the
 state-price wedge is not a net trading return. Separate event pools can carry
 different risk premia and funding constraints. Normalization removes event-
-level overround but not these frictions.
+level overround but not these frictions. As the underlying approaches the
+touch threshold with elapsed time, $\pi(H_M)$ rises and $U_T(K)$ falls
+mechanically; the persistence result is not pure evidence of market belief
+in cross-and-reversal paths.
 
 The robustness frontier is conditional on observed paths and listed strikes.
 It does not estimate the frequency, sign, or magnitude of actual benchmark
 errors. A genuine market move and a measurement error are observationally
 distinct concepts, and daily return volatility cannot identify the latter.
 The audit uses later-retrieved history; silent revisions between original
-settlement and retrieval remain possible.
+settlement and retrieval remain possible. The stated-rule and all-rules panels
+have different composition problems and are reported only as deterministic
+sensitivity summaries.
+
+This paper studies event-venue settlement rules (Polymarket, Kalshi).
+Ornn's own listed future on Ornn Exchange uses Asian-style arithmetic-average
+of daily index values with 30 daily payouts per month-long contract
+\citep{ornnfutures}; we do not have access to Ornn Exchange trade prints and
+do not model the Ornn-Exchange listed rule as a primary object. The Ornn
+risk-disclosure also identifies OrnnX LLC, a de minimis swap dealer pricing
+off the same OCPI series; we did not have access to OrnnX prints and the
+structural conflict-of-interest this disclosure names is a research gap, not
+a finding. The Polymarket ``Ornn B200/H100/H200 Index'' series referenced by
+the event rules is identified by market slug only; the repo has not
+independently verified that the Polymarket reference is OCPI rather than a
+different Ornn-published series. The OCPI methodology is built on a rolling
+one-hour observation window; the archived Ornn index paths used here contain
+one observation per day, not the sub-daily prints the methodology describes.
+The five functionals in the sparse-print analysis are therefore evaluated on
+the daily path, not on the rolling one-hour grid the methodology uses.
 
 We predeclare four prospective falsification tests for observations first
 published after August 30, 2026:
 \begin{enumerate}
 \item Repeat the matched-surface bound with timestamped executable bids, asks,
 sizes, fees, and a common collateral clock. The price-coherence interpretation
-fails if the lower bounds vanish after executable costs.
+fails if the lower bounds vanish after executable costs. Recompute the
+wedge separately on the subset of hours where $Y_t < K - 0.10$ to bound the
+mechanical component of the persistence result.
 \item Apply the frozen settlement parser to new events before outcomes are known.
 Any rule-dependent reproduction failure invalidates the current taxonomy.
 \item Publish the event-weighted sparse frontier on a forward holdout without
@@ -449,12 +510,12 @@ history and governance of mature commodity benchmarks. In that setting, the
 benchmark is part of the option, and the settlement functional determines which
 features of its path have economic value.
 
-The paper supplies three auditable results: exact reproduction of \NContracts{}
-archived strike settlements; a model-free and persistently positive first-
-passage price bound across matched terminal/touch surfaces; and an event-weighted
-sparse-print robustness frontier showing the directional asymmetry of one-touch
-settlement. None requires relabeling index volatility as measurement error or a
-historical bootstrap as a fair option price.
+The paper supplies two primary auditable results: exact reproduction of
+\NContracts{} archived strike settlements and a model-free, persistently positive
+first-passage price bound across matched terminal/touch surfaces. An
+event-weighted sparse-print frontier provides a deterministic sensitivity
+analysis of settlement design. None requires relabeling index volatility as
+measurement error or a historical bootstrap as a fair option price.
 
 For market designers, the practical message is direct. Specify the path
 functional, preserve publication vintages, align averaging with the exposure,
@@ -467,12 +528,13 @@ as listed compute futures begin trading.
 
 The frozen data, SHA-256 manifest, standard-library Python analysis, unit tests,
 CSV and JSON results, vector figures, and this manuscript are included in the
-artifact. Running \code{make -C novelty all} performs no network access. The
-primary numerical claims are generated into the manuscript from
-\path{paper/generated/results_macros.tex}. Source limitations and rejected
+artifact. Running \code{make all} performs no network access. The
+primary numerical claims and both empirical tables are generated into the
+manuscript from analysis outputs under \path{paper/generated/}. Source limitations and rejected
 interpretations are recorded in \path{DATA_CARD.md} and
 \path{literature/RESEARCH_LOG.md}.
 
+\small
 \begin{thebibliography}{99}
 
 \bibitem[Bandi and Su(2026)]{bandisu2026}
@@ -480,6 +542,12 @@ F. M. Bandi and Y. Su.
 \newblock (Early) AI compute asset pricing.
 \newblock \emph{arXiv preprint arXiv:2607.12156}, 2026.
 \newblock \url{https://arxiv.org/abs/2607.12156}.
+
+\bibitem[Bergemann and Deb(2025)]{bergemanndeb2025}
+D. Bergemann and R. Deb.
+\newblock Robust pricing for cloud computing.
+\newblock \emph{Cowles Foundation Discussion Paper 2423}, 2025.
+\newblock \url{https://cowles.yale.edu/research/cfdp-2423-robust-pricing-cloud}.
 
 \bibitem[Broadie et~al.(1997)Broadie, Glasserman, and Kou]{broadie1997}
 M. Broadie, P. Glasserman, and S. Kou.
@@ -507,11 +575,42 @@ D. Dai, R. Jia, and S. Yu.
 \newblock Settlement manipulation in prediction markets.
 \newblock \emph{arXiv preprint arXiv:2606.31675}, 2026.
 
+\bibitem[Demirer et~al.(2025)Demirer, Fradkin, Tadelis, and Peng]{demirer2025}
+M. Demirer, A. Fradkin, N. Tadelis, and S. Peng.
+\newblock The emerging market for intelligence: Pricing, supply, and demand for LLMs.
+\newblock \emph{NBER Working Paper 34608}, December 2025.
+\newblock \url{https://www.nber.org/papers/w34608}.
+
 \bibitem[Duffie and Dworczak(2021)]{duffiedworczak2021}
 D. Duffie and P. Dworczak.
 \newblock Robust benchmark design.
 \newblock \emph{Journal of Financial Economics}, 142(2):775--802, 2021.
 \newblock doi:10.1016/j.jfineco.2021.06.024.
+
+\bibitem[GPU Lottery(2025)]{gpulottery2025}
+Anonymous.
+\newblock Did you win the GPU cloud lottery? Benchmarking from tokens-per-dollar perspective.
+\newblock \emph{ACM}, 2025.
+\newblock doi:10.1145/3818671.3818674.
+
+\bibitem[He(2026)]{he2025}
+Q. He.
+\newblock Location-robust cost-preserving blended pricing for multi-campus AI data centers.
+\newblock \emph{arXiv preprint arXiv:2512.14197}, v3, January 2026.
+\newblock \url{https://arxiv.org/abs/2512.14197}.
+
+\bibitem[Architect(2026)]{architect2026}
+Architect Exchange and Ornn.
+\newblock AX (Architect Exchange) and Ornn partnership: AX to offer perpetual
+compute futures priced off Ornn's indices.
+\newblock Press release, May 28, 2026.
+\newblock Publisher release.
+
+\bibitem[ICE(2026)]{ice2026}
+Intercontinental Exchange.
+\newblock ICE and Ornn to launch GPU compute futures contracts.
+\newblock Official press release, May 19, 2026.
+\newblock \href{https://ir.theice.com/press/news-details/2026/ICE-and-Ornn-to-Launch-GPU-Compute-Futures-Contracts/default.aspx}{Publisher page}.
 
 \bibitem[IOSCO(2013)]{iosco2013}
 International Organization of Securities Commissions.
@@ -523,10 +622,17 @@ Z. Li, H. Zhang, L. O'Brien, S. Jiang, Y. Zhou, M. Kihl, and R. Ranjan.
 \newblock Spot pricing in the cloud ecosystem: A comparative investigation.
 \newblock \emph{Journal of Cloud Computing}, 2017.
 
-\bibitem[Ornn(2026)]{ornn2026}
+\bibitem[Ornn(2026a)]{ornn2026}
 Ornn Data LLC.
 \newblock Risk disclosure statement and compute price index construction.
 \newblock \url{https://data.ornnai.com/risk-disclosure}, accessed August 30, 2026.
+
+\bibitem[Ornn(2026b)]{ornnfutures}
+Ornn.
+\newblock How to hedge compute, Part 2: compute futures mechanics and Asian-style
+settlement.
+\newblock Ornn blog.
+\newblock Original at \url{https://ornn.com/blog/compute-futures}.
 
 \bibitem[Pirrong(2001)]{pirrong2001}
 C. Pirrong.

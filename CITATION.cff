@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research package, please cite it as below."
+title: "The Benchmark Is Part of the Option"
+type: software
+authors:
+  - family-names: Mathew
+    given-names: Adrian
+version: 1.0.0
+date-released: 2026-08-31
+license: MIT
+abstract: >-
+  Reproducibility package for settlement-function audits, model-free
+  terminal-versus-touch price bounds, and event-weighted sparse-print
+  robustness in compute derivatives.
+keywords:
+  - compute derivatives
+  - benchmark design
+  - first-passage option
+  - settlement audit
+repository-code: "https://github.com/adrianm75/benchmark-is-part-of-the-option"

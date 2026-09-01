@@ -28,12 +28,38 @@ asset pricing.
 - Byrne, Corrado, and Sichel, **The Rise of Cloud Computing: Minding Your P's,
   Q's and K's** (2018), [NBER 25188](https://www.nber.org/papers/w25188).
   Constructs quality-adjusted cloud-computing price indexes.
+- Demirer, Fradkin, Tadelis, and Peng, **The Emerging Market for Intelligence** (2025),
+  [NBER 34608](https://www.nber.org/papers/w34608). Documents six facts on the
+  LLM API market using OpenRouter and Microsoft Azure. Token-side analog: the
+  inference-side complement to a rental index. A joint rental-plus-token study
+  is the natural next step and is not in the present paper.
 - Li et al., **Spot Pricing in the Cloud Ecosystem** (2017),
   [arXiv:1708.01401](https://arxiv.org/abs/1708.01401). Reviews 61 primary studies
   on provider spot pricing; this literature concerns resource allocation and
   posted cloud prices rather than cash-settled GPU-index options.
 
-## Benchmark and settlement design
+## Closest cross-vendor and index-construction methods
+
+- Qi He, **Location-Robust Cost-Preserving Blended Pricing for Multi-Campus AI
+  Data Centers** (2026), [arXiv:2512.14197](https://arxiv.org/abs/2512.14197).
+  Proposes two-way fixed-effects and common-weight operators that reconcile
+  cost-preservation with ranking robustness when a portfolio procures the same
+  SKU across heterogeneous campuses. Different problem from cross-vendor
+  (location within a portfolio, not vendor across market). The operator
+  framework is reusable for cross-vendor reconciliation as future work.
+- Bergemann and Deb, **Robust Pricing for Cloud Computing** (2025),
+  [Cowles 2423](https://cowles.yale.edu/research/cfdp-2423-robust-pricing-cloud).
+  Theoretical mechanism-design result for posted cloud prices under buyer
+  private information. Non-empirical but supports the design intuition that
+  posted cloud prices do not continuously market-clear.
+- "Did You Win the GPU Cloud Lottery? Benchmarking from Tokens-per-Dollar
+  Perspective" (2025), [ACM 10.1145/3818671.3818674](https://dl.acm.org/doi/10.1145/3818671.3818674).
+  Reports that 8% micro-benchmark variation on identical GPUs can produce a
+  1.61× token-per-dollar difference. Empirical basis for the cross-vendor
+  basis: a 1–2% level difference between two indices is not small once it
+  propagates into per-workload cost.
+
+## Institutional sources
 
 - Duffie and Dworczak, **Robust Benchmark Design**, *Journal of Financial
   Economics* 142(2), 775-802 (2021),
@@ -67,8 +93,26 @@ asset pricing.
 
 - CFTC, **Request for Comment on the Listing of Compute Derivatives Contracts**,
   91 FR 54259 (2026), [Federal Register PDF](https://www.govinfo.gov/content/pkg/FR-2026-08-21/pdf/2026-17163.pdf).
-- CME Group and Silicon Data, **Compute Futures Launch Announcement** (August 11,
-  2026), [official release](https://www.cmegroup.com/media-room/press-releases/2026/8/11/cme_group_and_silicondatatolaunchcomputefuturesonoctober5tounloc.html).
+- CME Group and Silicon Data, **Compute Futures Launch Announcement** (May 12,
+  2026 partnership; August 11, 2026 listing announcement), [official
+  release](https://www.cmegroup.com/media-room/press-releases/2026/8/11/cme_group_and_silicondatatolaunchcomputefuturesonoctober5tounloc.html).
+  Cash-settled on Silicon Data H100 and B200 rental indices, USD-denominated,
+  CFTC review pending.
+- ICE and Ornn, **GPU Compute Futures Launch Announcement** (May 19, 2026),
+  [press release](https://ir.theice.com/press/news-details/2026/ICE-and-Ornn-to-Launch-GPU-Compute-Futures-Contracts/default.aspx).
+  Cash-settled on the Ornn Compute Price Index (OCPI). USD-denominated.
+  Contracts may reference H100, H200, B200, RTX 5090, and additional GPU types
+  as the market develops. Subject to regulatory approval.
+- Architect, **Compute Futures on a New US Exchange** (May 28, 2026). Per
+  the joint Ornn–Architect press release, AX perpetuals settle on Ornn's
+  indices — i.e. the same family of OCPI
+  series Kalshi and ICE reference. Three venues now list or have announced
+  cash-settled products referencing Ornn; this strengthens the auditability
+  argument but also concentrates the structural conflict-of-interest named in
+  the OCPI risk-disclosure.
+- NATIVX, energy-normalized compute index, per Silicon Data's published
+  SiliconMark-versus-InferenceX methodology note.
+  Fourth benchmark under active development.
 - Ornn, **Risk Disclosure and Compute Price Index Construction**,
   [official disclosure](https://data.ornnai.com/risk-disclosure).
 - Polymarket, [H100 terminal rules](https://polymarket.com/event/gpu-rental-prices-h100-end-of-2026-20260709164334623)

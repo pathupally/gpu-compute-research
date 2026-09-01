@@ -1,15 +1,10 @@
 {
   "events": [
     {
-      "closed": false,
-      "end_date": "2026-12-31T23:59:00Z",
       "liquidity": 11962.97272,
       "markets": [
         {
           "group_item_title": "<$3.00",
-          "market_slug": "will-the-ornn-b200-index-be-less-than-3pt00-on-december-31-2026-20260709165336438",
-          "no_price": 0.9535,
-          "question": "Will the Ornn B200 Index be less than $3.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.014,
@@ -2992,9 +2987,6 @@
         },
         {
           "group_item_title": "$3.00-$3.50",
-          "market_slug": "will-the-ornn-b200-index-be-between-3pt00-and-3pt50-on-december-31-2026-20260709165336439",
-          "no_price": 0.9575,
-          "question": "Will the Ornn B200 Index be between $3.00 and $3.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.031,
@@ -5981,9 +5973,6 @@
         },
         {
           "group_item_title": "$3.50-$4.00",
-          "market_slug": "will-the-ornn-b200-index-be-between-3pt50-and-4pt00-on-december-31-2026-20260709165336440",
-          "no_price": 0.958,
-          "question": "Will the Ornn B200 Index be between $3.50 and $4.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.059,
@@ -8966,9 +8955,6 @@
         },
         {
           "group_item_title": "$4.00-$4.50",
-          "market_slug": "will-the-ornn-b200-index-be-between-4pt00-and-4pt50-on-december-31-2026-20260709165336441",
-          "no_price": 0.9295,
-          "question": "Will the Ornn B200 Index be between $4.00 and $4.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.0365,
@@ -11955,9 +11941,6 @@
         },
         {
           "group_item_title": "$4.50-$5.00",
-          "market_slug": "will-the-ornn-b200-index-be-between-4pt50-and-5pt00-on-december-31-2026-20260709165336442",
-          "no_price": 0.85,
-          "question": "Will the Ornn B200 Index be between $4.50 and $5.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.095,
@@ -14944,9 +14927,6 @@
         },
         {
           "group_item_title": "$5.00-$5.50",
-          "market_slug": "will-the-ornn-b200-index-be-between-5pt00-and-5pt50-on-december-31-2026-20260709165336443",
-          "no_price": 0.86,
-          "question": "Will the Ornn B200 Index be between $5.00 and $5.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.1235,
@@ -17929,9 +17909,6 @@
         },
         {
           "group_item_title": "$5.50-$6.00",
-          "market_slug": "will-the-ornn-b200-index-be-between-5pt50-and-6pt00-on-december-31-2026-20260709165336444",
-          "no_price": 0.815,
-          "question": "Will the Ornn B200 Index be between $5.50 and $6.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.36,
@@ -20918,9 +20895,6 @@
         },
         {
           "group_item_title": "$6.00-$6.50",
-          "market_slug": "will-the-ornn-b200-index-be-between-6pt00-and-6pt50-on-december-31-2026-20260709165336445",
-          "no_price": 0.795,
-          "question": "Will the Ornn B200 Index be between $6.00 and $6.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.15,
@@ -23907,9 +23881,6 @@
         },
         {
           "group_item_title": "$6.50-$7.00",
-          "market_slug": "will-the-ornn-b200-index-be-between-6pt50-and-7pt00-on-december-31-2026-20260709165336446",
-          "no_price": 0.9145,
-          "question": "Will the Ornn B200 Index be between $6.50 and $7.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.178,
@@ -26896,9 +26867,6 @@
         },
         {
           "group_item_title": "$7.00+",
-          "market_slug": "will-the-ornn-b200-index-be-at-least-7pt00-on-december-31-2026-20260709165336447",
-          "no_price": 0.91,
-          "question": "Will the Ornn B200 Index be at least $7.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.055,
@@ -29880,21 +29848,13 @@
           "yes_price": 0.09
         }
       ],
-      "slug": "gpu-rental-prices-b200-end-of-2026-20260709165336437",
-      "start_date": "2026-07-10T14:16:39.816581Z",
-      "title": "GPU rental prices (B200) end of 2026?",
-      "volume": 60637.617302000006
+      "title": "GPU rental prices (B200) end of 2026?"
     },
     {
-      "closed": false,
-      "end_date": "2026-12-31T00:00:00Z",
       "liquidity": 4271.31908,
       "markets": [
         {
           "group_item_title": "\u2191 $8.00",
-          "market_slug": "will-the-ornn-b200-index-hit-8pt00-high-by-december-31-2026-20260709171530826",
-          "no_price": 0.525,
-          "question": "Will the Ornn B200 Index hit $8.00 (HIGH) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.32,
@@ -32881,9 +32841,6 @@
         },
         {
           "group_item_title": "\u2191 $7.50",
-          "market_slug": "will-the-ornn-b200-index-hit-7pt50-high-by-december-31-2026-20260709171530827",
-          "no_price": 0.4905,
-          "question": "Will the Ornn B200 Index hit $7.50 (HIGH) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.4955,
@@ -35870,25 +35827,16 @@
         },
         {
           "group_item_title": "\u2191 $7.00",
-          "market_slug": "will-the-ornn-b200-index-hit-7pt00-high-by-december-31-2026-20260709171530828",
-          "no_price": 0.0,
-          "question": "Will the Ornn B200 Index hit $7.00 (HIGH) by December 31, 2026?",
           "yes_history": [],
           "yes_price": 1.0
         },
         {
           "group_item_title": "\u2191 $6.50",
-          "market_slug": "will-the-ornn-b200-index-hit-6pt50-high-by-december-31-2026-20260709171530829",
-          "no_price": 0.0,
-          "question": "Will the Ornn B200 Index hit $6.50 (HIGH) by December 31, 2026?",
           "yes_history": [],
           "yes_price": 1.0
         },
         {
           "group_item_title": "\u2193 $5.50",
-          "market_slug": "will-the-ornn-b200-index-hit-5pt50-low-by-december-31-2026-20260709171530831",
-          "no_price": 0.07,
-          "question": "Will the Ornn B200 Index hit $5.50 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.9165,
@@ -38871,9 +38819,6 @@
         },
         {
           "group_item_title": "\u2193 $5.00",
-          "market_slug": "will-the-ornn-b200-index-hit-5pt00-low-by-december-31-2026-20260709171530832",
-          "no_price": 0.23,
-          "question": "Will the Ornn B200 Index hit $5.00 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.87,
@@ -41860,9 +41805,6 @@
         },
         {
           "group_item_title": "\u2193 $4.50",
-          "market_slug": "will-the-ornn-b200-index-hit-4pt50-low-by-december-31-2026-20260709171530833",
-          "no_price": 0.485,
-          "question": "Will the Ornn B200 Index hit $4.50 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.725,
@@ -44841,9 +44783,6 @@
         },
         {
           "group_item_title": "\u2193 $4.00",
-          "market_slug": "will-the-ornn-b200-index-hit-4pt00-low-by-december-31-2026-20260709171530834",
-          "no_price": 0.665,
-          "question": "Will the Ornn B200 Index hit $4.00 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.65,
@@ -47830,9 +47769,6 @@
         },
         {
           "group_item_title": "\u2193 $3.50",
-          "market_slug": "will-the-ornn-b200-index-hit-3pt50-low-by-december-31-2026-20260709171530835",
-          "no_price": 0.8455,
-          "question": "Will the Ornn B200 Index hit $3.50 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.0805,
@@ -50814,21 +50750,13 @@
           "yes_price": 0.1545
         }
       ],
-      "slug": "gpu-rental-prices-b200-hit-in-2026-20260709171530825",
-      "start_date": "2026-07-10T22:37:31.607989Z",
-      "title": "GPU rental prices (B200) hit___ in 2026?",
-      "volume": 32104.911212
+      "title": "GPU rental prices (B200) hit___ in 2026?"
     },
     {
-      "closed": false,
-      "end_date": "2026-12-31T23:59:00Z",
       "liquidity": 6615.23233,
       "markets": [
         {
           "group_item_title": "<$1.50",
-          "market_slug": "will-the-ornn-h100-index-be-less-than-1pt50-on-december-31-2026-20260709164334624",
-          "no_price": 0.929,
-          "question": "Will the Ornn H100 Index be less than $1.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.1205,
@@ -53815,9 +53743,6 @@
         },
         {
           "group_item_title": "$1.50-$2.00",
-          "market_slug": "will-the-ornn-h100-index-be-between-1pt50-and-2pt00-on-december-31-2026-20260709164334625",
-          "no_price": 0.8315,
-          "question": "Will the Ornn H100 Index be between $1.50 and $2.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.2055,
@@ -56800,9 +56725,6 @@
         },
         {
           "group_item_title": "$2.00-$2.50",
-          "market_slug": "will-the-ornn-h100-index-be-between-2pt00-and-2pt50-on-december-31-2026-20260709164334626",
-          "no_price": 0.833,
-          "question": "Will the Ornn H100 Index be between $2.00 and $2.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.348,
@@ -59789,9 +59711,6 @@
         },
         {
           "group_item_title": "$2.50-$3.00",
-          "market_slug": "will-the-ornn-h100-index-be-between-2pt50-and-3pt00-on-december-31-2026-20260709164334627",
-          "no_price": 0.7275,
-          "question": "Will the Ornn H100 Index be between $2.50 and $3.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.2625,
@@ -62774,9 +62693,6 @@
         },
         {
           "group_item_title": "$3.00-$3.50",
-          "market_slug": "will-the-ornn-h100-index-be-between-3pt00-and-3pt50-on-december-31-2026-20260709164334628",
-          "no_price": 0.859,
-          "question": "Will the Ornn H100 Index be between $3.00 and $3.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.1175,
@@ -65763,9 +65679,6 @@
         },
         {
           "group_item_title": "$3.50-$4.00",
-          "market_slug": "will-the-ornn-h100-index-be-between-3pt50-and-4pt00-on-december-31-2026-20260709164334629",
-          "no_price": 0.8835,
-          "question": "Will the Ornn H100 Index be between $3.50 and $4.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.1405,
@@ -68752,9 +68665,6 @@
         },
         {
           "group_item_title": "$4.00+",
-          "market_slug": "will-the-ornn-h100-index-be-at-least-4pt00-on-december-31-2026-20260709164334630",
-          "no_price": 0.946,
-          "question": "Will the Ornn H100 Index be at least $4.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.061,
@@ -71732,21 +71642,13 @@
           "yes_price": 0.054
         }
       ],
-      "slug": "gpu-rental-prices-h100-end-of-2026-20260709164334623",
-      "start_date": "2026-07-10T14:07:23.6733Z",
-      "title": "GPU rental prices (H100) end of 2026?",
-      "volume": 44897.106629
+      "title": "GPU rental prices (H100) end of 2026?"
     },
     {
-      "closed": false,
-      "end_date": "2026-12-31T00:00:00Z",
       "liquidity": 884.91297,
       "markets": [
         {
           "group_item_title": "\u2191 $3.50",
-          "market_slug": "will-the-ornn-h100-index-hit-3pt50-high-by-december-31-2026-20260709170850327",
-          "no_price": 0.37,
-          "question": "Will the Ornn H100 Index hit $3.50 (HIGH) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.58,
@@ -74725,9 +74627,6 @@
         },
         {
           "group_item_title": "\u2191 $3.00",
-          "market_slug": "will-the-ornn-h100-index-hit-3pt00-high-by-december-31-2026-20260709170850328",
-          "no_price": 0.0,
-          "question": "Will the Ornn H100 Index hit $3.00 (HIGH) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.535,
@@ -76890,9 +76789,6 @@
         },
         {
           "group_item_title": "\u2191 $2.75",
-          "market_slug": "will-the-ornn-h100-index-hit-2pt75-high-by-december-31-2026-20260709170850329",
-          "no_price": 0.0,
-          "question": "Will the Ornn H100 Index hit $2.75 (HIGH) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.9945,
@@ -76915,9 +76811,6 @@
         },
         {
           "group_item_title": "\u2193 $2.25",
-          "market_slug": "will-the-ornn-h100-index-hit-2pt25-low-by-december-31-2026-20260709170850330",
-          "no_price": 0.315,
-          "question": "Will the Ornn H100 Index hit $2.25 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.535,
@@ -79900,9 +79793,6 @@
         },
         {
           "group_item_title": "\u2193 $2.00",
-          "market_slug": "will-the-ornn-h100-index-hit-2pt00-low-by-december-31-2026-20260709170850331",
-          "no_price": 0.6895,
-          "question": "Will the Ornn H100 Index hit $2.00 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.62,
@@ -82889,9 +82779,6 @@
         },
         {
           "group_item_title": "\u2193 $1.50",
-          "market_slug": "will-the-ornn-h100-index-hit-1pt50-low-by-december-31-2026-20260709170850332",
-          "no_price": 0.782,
-          "question": "Will the Ornn H100 Index hit $1.50 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.044,
@@ -85877,21 +85764,13 @@
           "yes_price": 0.218
         }
       ],
-      "slug": "gpu-rental-prices-h100-hit-in-2026-20260709165909063",
-      "start_date": "2026-07-10T14:23:40.963124Z",
-      "title": "GPU rental prices (H100) hit___ in 2026?",
-      "volume": 8463.467426
+      "title": "GPU rental prices (H100) hit___ in 2026?"
     },
     {
-      "closed": false,
-      "end_date": "2026-12-31T23:59:00Z",
       "liquidity": 9775.71355,
       "markets": [
         {
           "group_item_title": "<$2.50",
-          "market_slug": "will-the-ornn-h200-index-be-less-than-2pt50-on-december-31-2026-20260709164949060",
-          "no_price": 0.9555,
-          "question": "Will the Ornn H200 Index be less than $2.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.014,
@@ -88878,9 +88757,6 @@
         },
         {
           "group_item_title": "$2.50-$3.00",
-          "market_slug": "will-the-ornn-h200-index-be-between-2pt50-and-3pt00-on-december-31-2026-20260709164949061",
-          "no_price": 0.9535,
-          "question": "Will the Ornn H200 Index be between $2.50 and $3.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.0345,
@@ -91863,9 +91739,6 @@
         },
         {
           "group_item_title": "$3.00-$3.50",
-          "market_slug": "will-the-ornn-h200-index-be-between-3pt00-and-3pt50-on-december-31-2026-20260709164949062",
-          "no_price": 0.938,
-          "question": "Will the Ornn H200 Index be between $3.00 and $3.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.085,
@@ -94844,9 +94717,6 @@
         },
         {
           "group_item_title": "$3.50-$4.00",
-          "market_slug": "will-the-ornn-h200-index-be-between-3pt50-and-4pt00-on-december-31-2026-20260709164949063",
-          "no_price": 0.8455,
-          "question": "Will the Ornn H200 Index be between $3.50 and $4.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.0965,
@@ -97829,9 +97699,6 @@
         },
         {
           "group_item_title": "$4.00-$4.50",
-          "market_slug": "will-the-ornn-h200-index-be-between-4pt00-and-4pt50-on-december-31-2026-20260709164949064",
-          "no_price": 0.8,
-          "question": "Will the Ornn H200 Index be between $4.00 and $4.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.295,
@@ -100814,9 +100681,6 @@
         },
         {
           "group_item_title": "$4.50-$5.00",
-          "market_slug": "will-the-ornn-h200-index-be-between-4pt50-and-5pt00-on-december-31-2026-20260709164949065",
-          "no_price": 0.85,
-          "question": "Will the Ornn H200 Index be between $4.50 and $5.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.14,
@@ -103803,9 +103667,6 @@
         },
         {
           "group_item_title": "$5.00-$5.50",
-          "market_slug": "will-the-ornn-h200-index-be-between-5pt00-and-5pt50-on-december-31-2026-20260709164949066",
-          "no_price": 0.894,
-          "question": "Will the Ornn H200 Index be between $5.00 and $5.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.08,
@@ -106792,9 +106653,6 @@
         },
         {
           "group_item_title": "$5.50-$6.00",
-          "market_slug": "will-the-ornn-h200-index-be-between-5pt50-and-6pt00-on-december-31-2026-20260709164949067",
-          "no_price": 0.8925,
-          "question": "Will the Ornn H200 Index be between $5.50 and $6.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.161,
@@ -109781,9 +109639,6 @@
         },
         {
           "group_item_title": "$6.00-$6.50",
-          "market_slug": "will-the-ornn-h200-index-be-between-6pt00-and-6pt50-on-december-31-2026-20260709164949068",
-          "no_price": 0.9365,
-          "question": "Will the Ornn H200 Index be between $6.00 and $6.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.0915,
@@ -112766,9 +112621,6 @@
         },
         {
           "group_item_title": "$6.50-$7.00",
-          "market_slug": "will-the-ornn-h200-index-be-between-6pt50-and-7pt00-on-december-31-2026-20260709164949069",
-          "no_price": 0.956,
-          "question": "Will the Ornn H200 Index be between $6.50 and $7.00 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.0575,
@@ -115755,9 +115607,6 @@
         },
         {
           "group_item_title": "$7.00-$7.50",
-          "market_slug": "will-the-ornn-h200-index-be-between-7pt00-and-7pt50-on-december-31-2026-20260709164949070",
-          "no_price": 0.9865,
-          "question": "Will the Ornn H200 Index be between $7.00 and $7.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.071,
@@ -118736,9 +118585,6 @@
         },
         {
           "group_item_title": "$7.50+",
-          "market_slug": "will-the-ornn-h200-index-be-at-least-7pt50-on-december-31-2026-20260709164949071",
-          "no_price": 0.975,
-          "question": "Will the Ornn H200 Index be at least $7.50 on December 31, 2026?",
           "yes_history": [
             {
               "p": 0.008,
@@ -121716,21 +121562,13 @@
           "yes_price": 0.025
         }
       ],
-      "slug": "gpu-rental-prices-h200-end-of-2026-20260709164949059",
-      "start_date": "2026-07-10T14:15:37.832341Z",
-      "title": "GPU rental prices (H200) end of 2026?",
-      "volume": 17163.722719999998
+      "title": "GPU rental prices (H200) end of 2026?"
     },
     {
-      "closed": false,
-      "end_date": "2026-12-31T00:00:00Z",
       "liquidity": 766.12098,
       "markets": [
         {
           "group_item_title": "\u2191 $7.00",
-          "market_slug": "will-the-ornn-h200-index-hit-7pt00-high-by-december-31-2026-20260709171105504",
-          "no_price": 0.5835,
-          "question": "Will the Ornn H200 Index hit $7.00 (HIGH) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.417,
@@ -124717,9 +124555,6 @@
         },
         {
           "group_item_title": "\u2191 $6.00",
-          "market_slug": "will-the-ornn-h200-index-hit-6pt00-high-by-december-31-2026-20260709171105505",
-          "no_price": 0.4,
-          "question": "Will the Ornn H200 Index hit $6.00 (HIGH) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.67,
@@ -127706,9 +127541,6 @@
         },
         {
           "group_item_title": "\u2191 $5.50",
-          "market_slug": "will-the-ornn-h200-index-hit-5pt50-high-by-december-31-2026-20260709171105506",
-          "no_price": 0.0,
-          "question": "Will the Ornn H200 Index hit $5.50 (HIGH) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.75,
@@ -128019,25 +127851,16 @@
         },
         {
           "group_item_title": "\u2191 $5.00",
-          "market_slug": "will-the-ornn-h200-index-hit-5pt00-high-by-december-31-2026-20260709171105507",
-          "no_price": 0.0,
-          "question": "Will the Ornn H200 Index hit $5.00 (HIGH) by December 31, 2026?",
           "yes_history": [],
           "yes_price": 1.0
         },
         {
           "group_item_title": "\u2191 $4.50",
-          "market_slug": "will-the-ornn-h200-index-hit-4pt50-high-by-december-31-2026-20260709171105508",
-          "no_price": 0.0,
-          "question": "Will the Ornn H200 Index hit $4.50 (HIGH) by December 31, 2026?",
           "yes_history": [],
           "yes_price": 1.0
         },
         {
           "group_item_title": "\u2193 $4.00",
-          "market_slug": "will-the-ornn-h200-index-hit-4pt00-low-by-december-31-2026-20260709171105509",
-          "no_price": 0.128,
-          "question": "Will the Ornn H200 Index hit $4.00 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.774,
@@ -131024,9 +130847,6 @@
         },
         {
           "group_item_title": "\u2193 $3.75",
-          "market_slug": "will-the-ornn-h200-index-hit-3pt75-low-by-december-31-2026-20260709171105510",
-          "no_price": 0.41,
-          "question": "Will the Ornn H200 Index hit $3.75 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.6545,
@@ -134013,9 +133833,6 @@
         },
         {
           "group_item_title": "\u2193 $3.50",
-          "market_slug": "will-the-ornn-h200-index-hit-3pt50-low-by-december-31-2026-20260709171105511",
-          "no_price": 0.4595,
-          "question": "Will the Ornn H200 Index hit $3.50 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.6475,
@@ -137002,9 +136819,6 @@
         },
         {
           "group_item_title": "\u2193 $3.00",
-          "market_slug": "will-the-ornn-h200-index-hit-3pt00-low-by-december-31-2026-20260709171105512",
-          "no_price": 0.605,
-          "question": "Will the Ornn H200 Index hit $3.00 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.27,
@@ -139983,9 +139797,6 @@
         },
         {
           "group_item_title": "\u2193 $2.50",
-          "market_slug": "will-the-ornn-h200-index-hit-2pt50-low-by-december-31-2026-20260709171105513",
-          "no_price": 0.8785,
-          "question": "Will the Ornn H200 Index hit $2.50 (LOW) by December 31, 2026?",
           "yes_history": [
             {
               "p": 0.077,
@@ -142967,10 +142778,7 @@
           "yes_price": 0.1215
         }
       ],
-      "slug": "gpu-rental-prices-h200-hit-in-2026-20260709171105503",
-      "start_date": "2026-07-10T22:35:51.531515Z",
-      "title": "GPU rental prices (H200) hit___ in 2026?",
-      "volume": 11755.831767
+      "title": "GPU rental prices (H200) hit___ in 2026?"
     }
   ],
   "fetched_at": "2026-08-29T18:10:32+00:00"
