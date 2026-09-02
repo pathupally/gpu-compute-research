@@ -1,40 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560">
 <rect width="100%" height="100%" fill="white"/>
-<style>text{font-family:Helvetica,Arial,sans-serif;fill:#172033}.axis{stroke:#64748b;stroke-width:1}.grid{stroke:#dbe3ee;stroke-width:1}.touch{fill:#334155}.tail{fill:#cbd5e1}</style>
-<line class="grid" x1="90" y1="480.0" x2="1045" y2="480.0"/>
-<text x="78" y="485.0" font-size="15" text-anchor="end">0%</text>
-<line class="grid" x1="90" y1="394.0" x2="1045" y2="394.0"/>
-<text x="78" y="399.0" font-size="15" text-anchor="end">20%</text>
-<line class="grid" x1="90" y1="308.0" x2="1045" y2="308.0"/>
-<text x="78" y="313.0" font-size="15" text-anchor="end">40%</text>
-<line class="grid" x1="90" y1="222.0" x2="1045" y2="222.0"/>
-<text x="78" y="227.0" font-size="15" text-anchor="end">60%</text>
-<line class="grid" x1="90" y1="136.0" x2="1045" y2="136.0"/>
-<text x="78" y="141.0" font-size="15" text-anchor="end">80%</text>
-<line class="grid" x1="90" y1="50.0" x2="1045" y2="50.0"/>
-<text x="78" y="55.0" font-size="15" text-anchor="end">100%</text>
-<rect class="touch" x="155.5" y="275.8" width="26" height="204.2" rx="2"/>
-<rect class="tail" x="189.5" y="443.4" width="26" height="36.6" rx="2"/>
-<text x="185.5" y="508" font-size="15" text-anchor="middle">B200 $8</text>
-<text x="185.5" y="529" font-size="13" text-anchor="middle" fill="#2563eb">gap 39.0%</text>
-<rect class="touch" x="346.5" y="260.9" width="26" height="219.1" rx="2"/>
-<rect class="tail" x="380.5" y="443.4" width="26" height="36.6" rx="2"/>
-<text x="376.5" y="508" font-size="15" text-anchor="middle">B200 $7.5</text>
-<text x="376.5" y="529" font-size="13" text-anchor="middle" fill="#2563eb">gap 42.4%</text>
-<rect class="touch" x="537.5" y="209.1" width="26" height="270.9" rx="2"/>
-<rect class="tail" x="571.5" y="406.0" width="26" height="74.0" rx="2"/>
-<text x="567.5" y="508" font-size="15" text-anchor="middle">H100 $3.5</text>
-<text x="567.5" y="529" font-size="13" text-anchor="middle" fill="#d97706">gap 45.8%</text>
-<rect class="touch" x="728.5" y="300.9" width="26" height="179.1" rx="2"/>
-<rect class="tail" x="762.5" y="463.7" width="26" height="16.3" rx="2"/>
-<text x="758.5" y="508" font-size="15" text-anchor="middle">H200 $7</text>
-<text x="758.5" y="529" font-size="13" text-anchor="middle" fill="#059669">gap 37.9%</text>
-<rect class="touch" x="919.5" y="222.0" width="26" height="258.0" rx="2"/>
-<rect class="tail" x="953.5" y="418.3" width="26" height="61.7" rx="2"/>
-<text x="949.5" y="508" font-size="15" text-anchor="middle">H200 $6</text>
-<text x="949.5" y="529" font-size="13" text-anchor="middle" fill="#059669">gap 45.6%</text>
-<line class="axis" x1="90" y1="480" x2="1045" y2="480"/>
-<line class="axis" x1="90" y1="50" x2="90" y2="480"/>
-<rect class="touch" x="760" y="18" width="20" height="14"/><text x="788" y="30" font-size="15">one-touch YES</text>
-<rect class="tail" x="905" y="18" width="20" height="14"/><text x="933" y="30" font-size="15">terminal tail upper bound</text>
+<line stroke="#dbe3ee" stroke-width="1" x1="90" y1="480.0" x2="1045" y2="480.0"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="78" y="485.0" font-size="15" text-anchor="end">0%</text>
+<line stroke="#dbe3ee" stroke-width="1" x1="90" y1="394.0" x2="1045" y2="394.0"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="78" y="399.0" font-size="15" text-anchor="end">20%</text>
+<line stroke="#dbe3ee" stroke-width="1" x1="90" y1="308.0" x2="1045" y2="308.0"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="78" y="313.0" font-size="15" text-anchor="end">40%</text>
+<line stroke="#dbe3ee" stroke-width="1" x1="90" y1="222.0" x2="1045" y2="222.0"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="78" y="227.0" font-size="15" text-anchor="end">60%</text>
+<line stroke="#dbe3ee" stroke-width="1" x1="90" y1="136.0" x2="1045" y2="136.0"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="78" y="141.0" font-size="15" text-anchor="end">80%</text>
+<line stroke="#dbe3ee" stroke-width="1" x1="90" y1="50.0" x2="1045" y2="50.0"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="78" y="55.0" font-size="15" text-anchor="end">100%</text>
+<rect fill="#334155" x="155.5" y="275.8" width="26" height="204.2" rx="2"/>
+<rect fill="#cbd5e1" x="189.5" y="443.4" width="26" height="36.6" rx="2"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="185.5" y="508" font-size="15" text-anchor="middle">B200 $8</text>
+<text font-family="Helvetica,Arial,sans-serif" x="185.5" y="529" font-size="13" text-anchor="middle" fill="#2563eb">gap 39.0%</text>
+<rect fill="#334155" x="346.5" y="260.9" width="26" height="219.1" rx="2"/>
+<rect fill="#cbd5e1" x="380.5" y="443.4" width="26" height="36.6" rx="2"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="376.5" y="508" font-size="15" text-anchor="middle">B200 $7.5</text>
+<text font-family="Helvetica,Arial,sans-serif" x="376.5" y="529" font-size="13" text-anchor="middle" fill="#2563eb">gap 42.4%</text>
+<rect fill="#334155" x="537.5" y="209.1" width="26" height="270.9" rx="2"/>
+<rect fill="#cbd5e1" x="571.5" y="406.0" width="26" height="74.0" rx="2"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="567.5" y="508" font-size="15" text-anchor="middle">H100 $3.5</text>
+<text font-family="Helvetica,Arial,sans-serif" x="567.5" y="529" font-size="13" text-anchor="middle" fill="#d97706">gap 45.8%</text>
+<rect fill="#334155" x="728.5" y="300.9" width="26" height="179.1" rx="2"/>
+<rect fill="#cbd5e1" x="762.5" y="463.7" width="26" height="16.3" rx="2"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="758.5" y="508" font-size="15" text-anchor="middle">H200 $7</text>
+<text font-family="Helvetica,Arial,sans-serif" x="758.5" y="529" font-size="13" text-anchor="middle" fill="#059669">gap 37.9%</text>
+<rect fill="#334155" x="919.5" y="222.0" width="26" height="258.0" rx="2"/>
+<rect fill="#cbd5e1" x="953.5" y="418.3" width="26" height="61.7" rx="2"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="949.5" y="508" font-size="15" text-anchor="middle">H200 $6</text>
+<text font-family="Helvetica,Arial,sans-serif" x="949.5" y="529" font-size="13" text-anchor="middle" fill="#059669">gap 45.6%</text>
+<line stroke="#64748b" stroke-width="1" x1="90" y1="480" x2="1045" y2="480"/>
+<line stroke="#64748b" stroke-width="1" x1="90" y1="50" x2="90" y2="480"/>
+<rect fill="#334155" x="640" y="18" width="20" height="14"/><text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="668" y="30" font-size="15">one-touch YES</text>
+<rect fill="#cbd5e1" x="785" y="18" width="20" height="14"/><text font-family="Helvetica,Arial,sans-serif" fill="#172033" x="813" y="30" font-size="15">terminal tail upper bound</text>
 </svg>

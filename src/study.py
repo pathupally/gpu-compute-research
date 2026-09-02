@@ -398,29 +398,37 @@ def write_surface_svg(bounds: list[dict]) -> None:
     plot_w, plot_h = width - left - right, height - top - bottom
     colors = {"B200": "#2563eb", "H100": "#d97706", "H200": "#059669"}
     x_positions = list(range(len(bounds)))
+    # Presentation attributes rather than a <style> block: GitHub strips
+    # <style> when it renders an SVG in a README, which would drop every fill
+    # and leave the chart as black rectangles on white.
+    txt = 'font-family="Helvetica,Arial,sans-serif" fill="#172033"'
+    grid, axis = 'stroke="#dbe3ee" stroke-width="1"', 'stroke="#64748b" stroke-width="1"'
+    bars = {"touch": 'fill="#334155"', "tail": 'fill="#cbd5e1"'}
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-             '<rect width="100%" height="100%" fill="white"/>',
-             '<style>text{font-family:Helvetica,Arial,sans-serif;fill:#172033}.axis{stroke:#64748b;stroke-width:1}.grid{stroke:#dbe3ee;stroke-width:1}.touch{fill:#334155}.tail{fill:#cbd5e1}</style>']
+             '<rect width="100%" height="100%" fill="white"/>']
     for tick in range(0, 11, 2):
         y = top + plot_h * (1 - tick / 10)
-        parts.append(f'<line class="grid" x1="{left}" y1="{y:.1f}" x2="{left+plot_w}" y2="{y:.1f}"/>')
-        parts.append(f'<text x="{left-12}" y="{y+5:.1f}" font-size="15" text-anchor="end">{tick*10}%</text>')
+        parts.append(f'<line {grid} x1="{left}" y1="{y:.1f}" x2="{left+plot_w}" y2="{y:.1f}"/>')
+        parts.append(f'<text {txt} x="{left-12}" y="{y+5:.1f}" font-size="15" text-anchor="end">{tick*10}%</text>')
     group_w = plot_w / max(1, len(bounds))
     for i, row in enumerate(bounds):
         cx = left + group_w * (i + 0.5)
         for offset, key, cls in ((-17, "touch_price", "touch"), (17, "terminal_tail_upper_normalized", "tail")):
             value = row[key]
             h = value * plot_h
-            parts.append(f'<rect class="{cls}" x="{cx+offset-13:.1f}" y="{top+plot_h-h:.1f}" width="26" height="{h:.1f}" rx="2"/>')
+            parts.append(f'<rect {bars[cls]} x="{cx+offset-13:.1f}" y="{top+plot_h-h:.1f}" width="26" height="{h:.1f}" rx="2"/>')
         label = f'{row["gpu"]} ${row["strike"]:g}'
-        parts.append(f'<text x="{cx:.1f}" y="{top+plot_h+28}" font-size="15" text-anchor="middle">{svg_escape(label)}</text>')
+        parts.append(f'<text {txt} x="{cx:.1f}" y="{top+plot_h+28}" font-size="15" text-anchor="middle">{svg_escape(label)}</text>')
         wedge = row["crossing_reversal_lower_bound_normalized"]
-        parts.append(f'<text x="{cx:.1f}" y="{top+plot_h+49}" font-size="13" text-anchor="middle" fill="{colors[row["gpu"]]}">gap {wedge:.1%}</text>')
+        parts.append(f'<text font-family="Helvetica,Arial,sans-serif" x="{cx:.1f}" y="{top+plot_h+49}" font-size="13" text-anchor="middle" fill="{colors[row["gpu"]]}">gap {wedge:.1%}</text>')
     parts.extend([
-        f'<line class="axis" x1="{left}" y1="{top+plot_h}" x2="{left+plot_w}" y2="{top+plot_h}"/>',
-        f'<line class="axis" x1="{left}" y1="{top}" x2="{left}" y2="{top+plot_h}"/>',
-        '<rect class="touch" x="760" y="18" width="20" height="14"/><text x="788" y="30" font-size="15">one-touch YES</text>',
-        '<rect class="tail" x="905" y="18" width="20" height="14"/><text x="933" y="30" font-size="15">terminal tail upper bound</text>',
+        f'<line {axis} x1="{left}" y1="{top+plot_h}" x2="{left+plot_w}" y2="{top+plot_h}"/>',
+        f'<line {axis} x1="{left}" y1="{top}" x2="{left}" y2="{top+plot_h}"/>',
+        # Legend is right-aligned to the plot edge at x=1045. "terminal tail
+        # upper bound" is ~170px at font-size 15, so it must start by x=875 or
+        # it runs off the 1080px canvas.
+        f'<rect {bars["touch"]} x="640" y="18" width="20" height="14"/><text {txt} x="668" y="30" font-size="15">one-touch YES</text>',
+        f'<rect {bars["tail"]} x="785" y="18" width="20" height="14"/><text {txt} x="813" y="30" font-size="15">terminal tail upper bound</text>',
         '</svg>'])
     FIGURES.mkdir(parents=True, exist_ok=True)
     (FIGURES / "surface_bounds.svg").write_text("\n".join(parts) + "\n")
