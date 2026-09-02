@@ -1,8 +1,7 @@
 __pycache__/
 .DS_Store
 *.py[cod]
-output/pdf/*.aux
-output/pdf/*.log
-output/pdf/*.out
-output/pdf/manuscript.pdf
+outputs/pdf/*.aux
+outputs/pdf/*.log
+outputs/pdf/*.out
 tmp/

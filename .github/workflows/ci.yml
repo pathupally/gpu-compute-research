@@ -34,8 +34,8 @@ jobs:
       # binary can never match across distributions. Everything the PDF is
       # built FROM -- paper/generated/*.tex, carrying every reported number --
       # is still gated here, and the test jobs gate the analysis in full.
-      - run: git diff --exit-code -- . ':!output/pdf'
+      - run: git diff --exit-code -- . ':!outputs/pdf'
       - uses: actions/upload-artifact@v7
         with:
           name: manuscript
-          path: output/pdf/the-benchmark-is-part-of-the-option.pdf
+          path: outputs/pdf/the-benchmark-is-part-of-the-option.pdf

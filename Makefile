@@ -20,9 +20,9 @@ figures: analysis
 	@test -s paper/generated/fragility_frontier_picture.tex
 
 paper: figures
-	mkdir -p output/pdf
-	$(PDFLATEX) -interaction=nonstopmode -halt-on-error -jobname=$(PAPER_NAME) -output-directory=output/pdf paper/manuscript.tex
-	$(PDFLATEX) -interaction=nonstopmode -halt-on-error -jobname=$(PAPER_NAME) -output-directory=output/pdf paper/manuscript.tex
+	mkdir -p outputs/pdf
+	$(PDFLATEX) -interaction=nonstopmode -halt-on-error -jobname=$(PAPER_NAME) -output-directory=outputs/pdf paper/manuscript.tex
+	$(PDFLATEX) -interaction=nonstopmode -halt-on-error -jobname=$(PAPER_NAME) -output-directory=outputs/pdf paper/manuscript.tex
 
 refreeze:
 	@test -n "$(SOURCE_ROOT)" || (echo "SOURCE_ROOT is required" >&2; exit 2)
